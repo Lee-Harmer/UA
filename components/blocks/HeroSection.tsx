@@ -42,8 +42,8 @@ export function HeroSection() {
         </h1>
 
         <p className="body-lg hero__sub">
-          Self-catering holiday apartments on one of South Africa&apos;s
-          most beautiful coastlines. Personally managed since 1988.
+          Beachfront apartments on the KwaZulu-Natal coast.
+          Personally managed since 1988.
         </p>
 
         <div className="hero__ctas">
