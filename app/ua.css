@@ -13,20 +13,20 @@
    1. DESIGN TOKENS
    ============================================================ */
 :root {
-  /* Brand — logo: teal U, navy text, red A (OKLCH — perceptually uniform) */
-  --ocean:         oklch(68% 0.098 212);
-  --ocean-deep:    oklch(26% 0.075 264);
+  /* Brand — logo: teal U (#29B8D8), navy text (#1A2B5E), red A (#D42B2B) */
+  --ocean:         #29B8D8;
+  --ocean-deep:    #1A2B5E;
   --ocean-light:   oklch(74% 0.090 208);
-  --ocean-mist:    oklch(68% 0.098 212 / 0.08);
-  --brand-red:     oklch(53% 0.22 27);
+  --ocean-mist:    rgba(41, 184, 216, 0.08);
+  --brand-red:     #D42B2B;
 
   /* Warm accents */
   --sand:          oklch(92.5% 0.028 75);
   --sand-dark:     oklch(87% 0.034 73);
   --warm-white:    oklch(97.5% 0.008 84);
-  --gold:          oklch(68% 0.095 62);
-  --gold-light:    oklch(76% 0.085 68);
-  --gold-glow:     oklch(68% 0.095 62 / 0.25);
+  --gold:          #29B8D8;
+  --gold-light:    oklch(74% 0.090 208);
+  --gold-glow:     rgba(41, 184, 216, 0.25);
 
   /* Nature */
   --seafoam:       oklch(58% 0.052 162);
@@ -237,8 +237,8 @@ a { color: inherit; text-decoration: none; }
   border-color: var(--gold);
 }
 .btn--gold:hover {
-  background: #b57e38;
-  border-color: #b57e38;
+  background: #1fa8c6;
+  border-color: #1fa8c6;
   box-shadow: 0 8px 24px var(--gold-glow);
 }
 
@@ -299,13 +299,13 @@ a { color: inherit; text-decoration: none; }
 
 /* Always-solid white nav */
 .site-nav--solid {
-  background: var(--warm-white);
-  box-shadow: 0 1px 0 var(--warm-grey);
+  background: #ffffff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1);
   padding-block: 1rem;
 }
 
 .site-nav--solid .site-nav__links a:not(.btn) {
-  color: var(--charcoal);
+  color: #1A2B5E;
 }
 
 .site-nav--solid .site-nav__links a:not(.btn):hover {
@@ -317,7 +317,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .site-nav--solid .site-nav__hamburger span {
-  background: var(--charcoal);
+  background: #1A2B5E;
 }
 
 /* Home page scrolled */
@@ -355,9 +355,9 @@ a { color: inherit; text-decoration: none; }
   filter: none;
 }
 
-/* On solid bg logo stays white */
+/* On solid navy bg logo shows naturally */
 .site-nav--solid .site-nav__logo {
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 /* Wordmark fallback (transparent hero state) */
@@ -376,7 +376,7 @@ a { color: inherit; text-decoration: none; }
 .site-nav__logo-img {
   display: block;
   width: auto;
-  height: 64px;
+  height: 100px;
   object-fit: contain;
   filter: drop-shadow(0 1px 3px rgba(0,0,0,0.35));
   transition: filter var(--dur-mid) var(--ease-std);
@@ -649,7 +649,7 @@ a { color: inherit; text-decoration: none; }
    ============================================================ */
 .why {
   padding-block: var(--section-v);
-  background: var(--warm-white);
+  background: var(--white);
 }
 
 .why__inner {
@@ -864,7 +864,7 @@ a { color: inherit; text-decoration: none; }
    ============================================================ */
 .featured {
   padding-block: var(--section-v);
-  background: var(--warm-white);
+  background: var(--sand);
 }
 
 .featured__header {
@@ -899,12 +899,20 @@ a { color: inherit; text-decoration: none; }
    ============================================================ */
 .amenities-section {
   padding-block: var(--section-v);
-  background: var(--warm-white);
+  background: var(--ocean-deep);
 }
 
 .amenities-section__header {
   text-align: center;
   margin-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.amenities-section .display-lg {
+  color: var(--white);
+}
+
+.amenities-section .body-lg {
+  color: rgba(255,255,255,0.65);
 }
 
 .amenities-grid {
@@ -920,16 +928,16 @@ a { color: inherit; text-decoration: none; }
   gap: 0.75rem;
   padding: 1.5rem 1rem;
   border-radius: 4px;
-  background: var(--off-white);
-  border: 1px solid var(--warm-grey);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
   transition: border-color var(--dur-fast) var(--ease-std),
               background var(--dur-fast) var(--ease-std);
   text-align: center;
 }
 
 .amenity-item:hover {
-  background: var(--white);
-  border-color: var(--ocean-light);
+  background: rgba(255,255,255,0.12);
+  border-color: var(--ocean);
 }
 
 .amenity-item__icon {
@@ -939,7 +947,7 @@ a { color: inherit; text-decoration: none; }
 .amenity-item__label {
   font: 500 0.72rem / 1.2 var(--font-body);
   letter-spacing: 0.04em;
-  color: var(--charcoal);
+  color: rgba(255,255,255,0.8);
 }
 
 /* ============================================================
@@ -947,7 +955,7 @@ a { color: inherit; text-decoration: none; }
    ============================================================ */
 .things-teaser {
   padding-block: var(--section-v);
-  background: var(--sand);
+  background: var(--white);
 }
 
 .things-teaser__header {
@@ -2364,7 +2372,7 @@ a { color: inherit; text-decoration: none; }
 
 .article-hero__cat {
   color: var(--gold-light);
-  border-color: rgba(222,176,128,0.4);
+  border-color: rgba(41,184,216,0.35);
 }
 
 /* ── No-image sidebar related ──────────────────────── */
@@ -2576,7 +2584,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 768px) {
   .site-nav__links { display: none; }
   .site-nav__hamburger { display: flex; }
-  .site-nav__logo-img { height: 48px; }
+  .site-nav__logo-img { height: 72px; }
 
   .why__inner { grid-template-columns: 1fr; gap: 2.5rem; }
   .why__intro { position: static; }

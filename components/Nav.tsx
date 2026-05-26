@@ -35,8 +35,8 @@ export function Nav() {
           <Image
             src="/logo.png"
             alt="Umhlanga Accommodation - Penny Underwood"
-            width={200}
-            height={56}
+            width={360}
+            height={100}
             className="site-nav__logo-img"
             priority
           />

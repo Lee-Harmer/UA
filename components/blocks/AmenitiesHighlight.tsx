@@ -14,7 +14,7 @@ export function AmenitiesHighlight() {
         <div className="amenities-section__header reveal">
           <span className="eyebrow">What&apos;s Included</span>
           <h2 className="display-lg">Everything you need<br />to <em>feel at home</em></h2>
-          <p className="body-lg" style={{ maxWidth: '50ch', margin: '1rem auto 0', color: 'var(--mid-grey)', textAlign: 'center' }}>
+          <p className="body-lg" style={{ maxWidth: '50ch', margin: '1rem auto 0', textAlign: 'center' }}>
             Our self-catering apartments are fully equipped with all the amenities
             for a comfortable, stress-free holiday.
           </p>
