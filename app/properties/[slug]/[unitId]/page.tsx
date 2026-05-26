@@ -118,7 +118,7 @@ export default async function UnitDetailPage({ params }: Props) {
               <h2 className="prop-detail__section-title">Seasonal Rates</h2>
               <div className="pricing-table" style={{ marginBottom: '2rem' }}>
                 {unit.rates.map((rate) => (
-                  <div key={rate.season} className="pricing-table__cell pricing-table__cell--header">
+                  <div key={rate.season} className={`pricing-table__cell pricing-table__cell--header pricing-table__cell--${rate.season}`}>
                     <span className="pricing-table__label">{rate.label}</span>
                     <span className="pricing-table__value">R{rate.perNight.toLocaleString()}</span>
                   </div>
@@ -263,24 +263,23 @@ function SimilarUnitCard({ complex, unit }: { complex: import('@/lib/properties'
   const coverImg = unit.images[0] ?? complex.coverImage;
 
   return (
-    <Link href={`/properties/${complex.slug}/${unit.id}`} style={{ display: 'block', textDecoration: 'none' }}>
-      <div className="property-card" style={{ cursor: 'pointer' }}>
-        <div className="property-card__img-wrap">
-          <img
-            src={coverImg}
-            alt={unit.name}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s var(--ease-expo)' }}
-            loading="lazy"
-          />
-          <div className="property-card__overlay" />
-        </div>
-        <div className="property-card__body">
-          <p style={{ font: '500 0.65rem/1 var(--font-body)', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '0.35rem' }}>{complex.name}</p>
-          <h3 className="property-card__name">{unit.name}</h3>
-          <div className="property-card__meta">
-            <span>{unit.bedrooms} bed · Sleeps {unit.sleeps}</span>
-            <span className="property-card__price">From R{minRate.toLocaleString()}/night</span>
-          </div>
+    <Link href={`/properties/${complex.slug}/${unit.id}`} className="prop-card">
+      <div className="prop-card__img-wrap">
+        <img
+          src={coverImg}
+          alt={unit.name}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s var(--ease-expo)' }}
+          loading="lazy"
+          className="prop-card__img"
+        />
+        <div className="prop-card__overlay" aria-hidden="true" />
+      </div>
+      <div className="prop-card__body">
+        <p style={{ font: '500 0.65rem/1 var(--font-body)', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '0.35rem' }}>{complex.name}</p>
+        <h3 className="prop-card__name">{unit.name}</h3>
+        <div className="prop-card__meta">
+          <span className="prop-card__price"><strong>{unit.bedrooms} bed</strong> · Sleeps {unit.sleeps}</span>
+          <span className="prop-card__price">From <strong>R{minRate.toLocaleString()}</strong>/night</span>
         </div>
       </div>
     </Link>

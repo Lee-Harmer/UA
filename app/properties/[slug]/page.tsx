@@ -143,7 +143,7 @@ export default async function ComplexDetailPage({ params }: Props) {
                 <span className="eyebrow">You might also like</span>
                 <h2 className="display-md" style={{ color: 'var(--ocean-deep)' }}>Similar Spots</h2>
               </div>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 22rem), 1fr))', gap: '1.5rem' }}>
                 {similar.map((s, i) => (
                   <div key={s.id} className="reveal" style={{ '--i': i + 1 } as React.CSSProperties}>
                     <PropertyCard complex={s} />

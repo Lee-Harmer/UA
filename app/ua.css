@@ -427,8 +427,8 @@ a { color: inherit; text-decoration: none; }
   flex-direction: column;
   justify-content: center;
   gap: 5px;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   background: none;
   border: none;
   cursor: pointer;
@@ -496,6 +496,10 @@ a { color: inherit; text-decoration: none; }
   text-decoration: none;
   color: rgba(255,255,255,0.7);
   transition: color var(--dur-fast) var(--ease-std);
+  padding-block: 0.5rem;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
 }
 
 .site-nav__drawer nav a:hover {
@@ -1432,6 +1436,34 @@ a { color: inherit; text-decoration: none; }
   font: 600 1rem / 1 var(--font-body);
   color: var(--charcoal);
 }
+
+/* Unit gallery */
+.unit-gallery__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.unit-gallery__main {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  position: relative;
+  aspect-ratio: 4 / 3;
+  cursor: pointer;
+}
+
+.unit-gallery__thumb {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.unit-gallery__more--mobile { display: none; }
 
 /* Amenity chips */
 .amenity-chips {
@@ -2586,6 +2618,44 @@ a { color: inherit; text-decoration: none; }
   .site-nav__hamburger { display: flex; }
   .site-nav__logo-img { height: 72px; }
 
+  /* Property hero — center content on mobile, strengthen overlay */
+  .prop-detail__hero {
+    align-items: center;
+    height: auto;
+    min-height: clamp(460px, 65vh, 640px);
+  }
+  .prop-detail__hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(10,24,40,0.65) 0%,
+      rgba(10,24,40,0.25) 45%,
+      rgba(10,24,40,0.25) 55%,
+      rgba(10,24,40,0.65) 100%
+    );
+  }
+  .prop-detail__hero-content {
+    padding-top: 5.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  /* Unit gallery — hero full-width, 2 larger thumbs below */
+  .unit-gallery__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .unit-gallery__main {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    aspect-ratio: 16 / 9;
+  }
+  .unit-gallery__thumb {
+    aspect-ratio: 4 / 3;
+  }
+  .unit-gallery__thumb--desktop-only {
+    display: none;
+  }
+  .unit-gallery__more--desktop { display: none; }
+  .unit-gallery__more--mobile { display: flex; }
+
   .why__inner { grid-template-columns: 1fr; gap: 2.5rem; }
   .why__intro { position: static; }
   .featured__grid { grid-template-columns: repeat(2, 1fr); }
@@ -2601,12 +2671,21 @@ a { color: inherit; text-decoration: none; }
   .journal-grid--3 { grid-template-columns: 1fr; }
   .journal-card__img-wrap { height: 200px; }
 
+  .btn {
+    min-height: 44px;
+  }
   .hero__ctas {
     flex-direction: column;
     align-items: stretch;
   }
   .hero__ctas .btn {
     justify-content: center;
+  }
+  .hero__scroll {
+    display: none;
+  }
+  .hero__content {
+    padding-bottom: 3rem;
   }
 
   .cta-strip__actions {
