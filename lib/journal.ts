@@ -25,7 +25,7 @@ export const articles: JournalArticle[] = [
     title: "The Complete Guide to Umhlanga's Beaches",
     category: 'Local Guide',
     excerpt: "From the iconic lighthouse strand to the wild dunes of Bronze Beach, Umhlanga's coastline is as varied as it is beautiful. Here's everything you need to know before you go.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2023/08/1-3.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
     publishedAt: '2026-01-08',
     readingTime: 6,
     body: [
@@ -99,7 +99,7 @@ export const articles: JournalArticle[] = [
     title: "Why Umhlanga Is South Africa's Best Family Holiday Destination",
     category: 'Travel',
     excerpt: "Safe beaches, world-class shopping, the uShaka Marine World day-trip, and enough restaurants to keep everyone happy - Umhlanga has the complete family holiday formula.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2025/01/1-3.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/01/1-3.jpg',
     publishedAt: '2026-01-22',
     readingTime: 7,
     body: [
@@ -175,7 +175,7 @@ export const articles: JournalArticle[] = [
     title: 'Whale Season in Umhlanga: What to Expect and Where to Watch',
     category: 'Wildlife',
     excerpt: "Between June and November, humpback and southern right whales pass within metres of the Umhlanga coast on their annual migration. No boat required.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2024/12/1-3.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/1-3.jpg',
     publishedAt: '2026-02-05',
     readingTime: 5,
     body: [
@@ -237,7 +237,7 @@ export const articles: JournalArticle[] = [
     title: 'The Best Day Trips from Umhlanga',
     category: 'Travel',
     excerpt: "Umhlanga makes an outstanding base for exploring the broader KwaZulu-Natal region. From Valley of a Thousand Hills to the Drakensberg foothills, here are the day trips worth planning.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2023/08/1-3.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
     publishedAt: '2026-02-19',
     readingTime: 6,
     body: [
@@ -304,7 +304,7 @@ export const articles: JournalArticle[] = [
     title: "Where to Eat in Umhlanga: A Local's Dining Guide",
     category: 'Food & Drink',
     excerpt: "From sunset cocktails on the beachfront to long lunches in the village, Umhlanga punches well above its weight in the dining department.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2025/02/DSC_8980-Edit.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/02/DSC_8980-Edit.jpg',
     publishedAt: '2026-03-05',
     readingTime: 6,
     body: [
@@ -365,7 +365,7 @@ export const articles: JournalArticle[] = [
     title: "Umhlanga in Autumn: The Quiet Season That Surprises Everyone",
     category: 'Travel',
     excerpt: "March to May is Umhlanga's best-kept secret. The summer crowds have gone, the sea is still warm, the restaurants are easy to book, and the light is extraordinary.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2024/12/1-3.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/1-3.jpg',
     publishedAt: '2026-03-19',
     readingTime: 5,
     body: [
@@ -434,7 +434,7 @@ export const articles: JournalArticle[] = [
     title: 'What to Pack for an Umhlanga Holiday',
     category: 'Travel Tips',
     excerpt: "Packing for a coastal holiday should be simple - but a few overlooked items can make the difference between a good trip and a great one.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2024/09/1a-1.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/09/1a-1.jpg',
     publishedAt: '2026-04-02',
     readingTime: 4,
     body: [
@@ -503,7 +503,7 @@ export const articles: JournalArticle[] = [
     title: "Inside Gateway: Umhlanga's World-Class Shopping Mall",
     category: 'Local Guide',
     excerpt: "Over 300 stores, South Africa's largest IMAX screen, a wave pool, and a farmers' market on weekends - Gateway Theatre of Shopping is a destination in itself.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2023/03/20230315_104252-scaled.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/03/20230315_104252-scaled.jpg',
     publishedAt: '2026-04-16',
     readingTime: 5,
     body: [
@@ -571,7 +571,7 @@ export const articles: JournalArticle[] = [
     title: 'The Umhlanga Village Guide: Walking, Coffee & Evening Strolls',
     category: 'Local Guide',
     excerpt: "Compact, walkable, and full of character - Umhlanga Village is the kind of neighbourhood that reveals itself slowly. Here is how to make the most of it.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2023/08/1-3.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
     publishedAt: '2026-05-07',
     readingTime: 5,
     body: [
@@ -628,7 +628,7 @@ export const articles: JournalArticle[] = [
     title: 'How to Choose the Right Self-Catering Apartment in Umhlanga',
     category: 'Travel Tips',
     excerpt: "Not all apartments are equal - and the difference between a good one and a great one often comes down to a handful of details. Here is what to look for before you book.",
-    coverImage: 'https://umhlangaaccommodation.co.za/wp-content/uploads/2024/09/1a-1.jpg',
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/09/1a-1.jpg',
     publishedAt: '2026-05-21',
     readingTime: 6,
     body: [

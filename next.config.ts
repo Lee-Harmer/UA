@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'umhlangaaccommodation.co.za',
+        hostname: 'pub-c515ece99fde425db8502f06def905f9.r2.dev',
         pathname: '/wp-content/uploads/**',
       },
       {
