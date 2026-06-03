@@ -13,7 +13,8 @@ function formatDate(iso: string) {
 }
 
 export default function JournalPage() {
-  const [featured, ...rest] = articles;
+  const sorted = [...articles].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  const [featured, ...rest] = sorted;
 
   return (
     <main>
@@ -66,6 +67,8 @@ export default function JournalPage() {
                 <div className="journal-card__body">
                   <div className="journal-card__meta">
                     <span className="journal-category">{article.category}</span>
+                    <span className="journal-dot" aria-hidden="true" />
+                    <span className="journal-date">{formatDate(article.publishedAt)}</span>
                     <span className="journal-dot" aria-hidden="true" />
                     <span className="journal-date">{article.readingTime} min read</span>
                   </div>

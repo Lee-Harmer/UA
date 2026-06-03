@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { MapPin, Clock, Ticket, Star, ArrowRight } from 'lucide-react';
 import { attractions, CATEGORIES } from '@/lib/things-to-do';
 import type { Metadata } from 'next';
@@ -61,12 +62,13 @@ export default function ThingsToDoPage() {
                   >
                     {/* Image */}
                     <div className="things-card__img-wrap">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                      <Image
                         src={attraction.image}
                         alt={attraction.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="things-card__img"
-                        loading={i === 0 && catIdx === 0 ? 'eager' : 'lazy'}
+                        priority={i === 0 && catIdx === 0}
                       />
                     </div>
 

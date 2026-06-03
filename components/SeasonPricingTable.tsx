@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
-import { ChevronDown, ExternalLink, Users, BedDouble, Bath, PlayCircle } from 'lucide-react';
+import { ChevronDown, ExternalLink, Users, BedDouble, Bath, PlayCircle, MapPin } from 'lucide-react';
 import { Unit } from '@/lib/properties';
 import { AmenityIcon } from '@/components/AmenityIcon';
 import { UnitGallery } from '@/components/UnitGallery';
@@ -123,6 +123,20 @@ export function SeasonPricingTable({ unit, complexSlug }: SeasonPricingTableProp
                 <AmenityIcon key={key} amenity={key} chipStyle showLabel />
               ))}
             </div>
+
+            {/* Map */}
+            {unit.mapUrl && (
+              <a
+                href={unit.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1rem 1.25rem', background: 'var(--off-white)', border: '1px solid var(--warm-grey)', borderRadius: '4px', textDecoration: 'none', color: 'var(--charcoal)', marginTop: '1.25rem', marginBottom: '0.5rem' }}
+              >
+                <MapPin size={18} strokeWidth={1.5} style={{ color: 'var(--gold)', flexShrink: 0 }} />
+                <span style={{ font: '500 0.85rem/1 var(--font-body)' }}>View Location on Google Maps</span>
+                <ExternalLink size={13} strokeWidth={1.5} style={{ color: 'var(--mid-grey)', marginLeft: 'auto', flexShrink: 0 }} />
+              </a>
+            )}
 
             {/* Book button */}
             {unit.nightsbridgeUrl && (

@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, MapPin, ChevronRight, ExternalLink, BedDouble, Bath, Users } from 'lucide-react';
 import { complexes, getUnitByIds, getSimilarUnits, getMinRate } from '@/lib/properties';
 import { AmenityIcon } from '@/components/AmenityIcon';
@@ -42,10 +43,13 @@ export default async function UnitDetailPage({ params }: Props) {
       {/* Hero - use first unit image as banner */}
       {unit.images.length > 0 && (
         <div className="prop-detail__hero">
-          <img
+          <Image
             src={unit.images[0]}
             alt={unit.name}
-            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+            fill
+            priority
+            sizes="100vw"
+            style={{ objectFit: 'cover' }}
           />
           <div className="prop-detail__hero-overlay" aria-hidden="true" />
           <div className="container prop-detail__hero-content">
@@ -101,8 +105,9 @@ export default async function UnitDetailPage({ params }: Props) {
                     <iframe
                       src={unit.videoUrl}
                       title={`${unit.name} video walkthrough`}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
+                      loading="lazy"
                       style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     />
                   </div>
@@ -164,6 +169,26 @@ export default async function UnitDetailPage({ params }: Props) {
                   <AmenityIcon key={key} amenity={key} chipStyle showLabel />
                 ))}
               </div>
+
+              {/* Map */}
+              {unit.mapUrl && (
+                <div style={{ marginBottom: '3rem' }}>
+                  <h2 className="prop-detail__section-title">Location</h2>
+                  <a
+                    href={unit.mapUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.25rem 1.5rem', background: 'var(--off-white)', border: '1px solid var(--warm-grey)', borderRadius: '4px', textDecoration: 'none', color: 'var(--charcoal)' }}
+                  >
+                    <MapPin size={22} strokeWidth={1.5} style={{ color: 'var(--gold)', flexShrink: 0 }} />
+                    <div>
+                      <div style={{ font: '600 0.95rem/1 var(--font-body)', marginBottom: '0.3rem' }}>{complex.name}</div>
+                      <div style={{ font: '400 0.82rem/1 var(--font-body)', color: 'var(--mid-grey)' }}>{complex.location} — View on Google Maps</div>
+                    </div>
+                    <ExternalLink size={15} strokeWidth={1.5} style={{ color: 'var(--mid-grey)', marginLeft: 'auto', flexShrink: 0 }} />
+                  </a>
+                </div>
+              )}
             </div>
 
             {/* Sidebar */}
@@ -265,11 +290,12 @@ function SimilarUnitCard({ complex, unit }: { complex: import('@/lib/properties'
   return (
     <Link href={`/properties/${complex.slug}/${unit.id}`} className="prop-card">
       <div className="prop-card__img-wrap">
-        <img
+        <Image
           src={coverImg}
           alt={unit.name}
-          style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s var(--ease-expo)' }}
-          loading="lazy"
+          fill
+          sizes="(max-width: 768px) 100vw, 33vw"
+          style={{ objectFit: 'cover', transition: 'transform 0.5s var(--ease-expo)' }}
           className="prop-card__img"
         />
         <div className="prop-card__overlay" aria-hidden="true" />

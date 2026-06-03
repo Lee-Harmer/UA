@@ -41,8 +41,8 @@
   --off-white:     oklch(97% 0.012 80);
 
   /* Typography */
-  --font-display: 'Gloock', Georgia, serif;
-  --font-body:    'Jost', system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-gloock), Georgia, serif;
+  --font-body:    var(--font-jost), system-ui, -apple-system, sans-serif;
 
   /* Spacing — 4pt scale */
   --sp-xs:     0.5rem;
@@ -1222,9 +1222,9 @@ a { color: inherit; text-decoration: none; }
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(10,24,40,0.80) 0%,
-    rgba(10,24,40,0.20) 60%,
-    transparent 100%
+    rgba(10,24,40,0.90) 0%,
+    rgba(10,24,40,0.60) 50%,
+    rgba(10,24,40,0.40) 100%
   );
 }
 
@@ -2627,10 +2627,10 @@ a { color: inherit; text-decoration: none; }
   .prop-detail__hero-overlay {
     background: linear-gradient(
       to bottom,
-      rgba(10,24,40,0.65) 0%,
-      rgba(10,24,40,0.25) 45%,
-      rgba(10,24,40,0.25) 55%,
-      rgba(10,24,40,0.65) 100%
+      rgba(10,24,40,0.75) 0%,
+      rgba(10,24,40,0.50) 45%,
+      rgba(10,24,40,0.50) 55%,
+      rgba(10,24,40,0.80) 100%
     );
   }
   .prop-detail__hero-content {

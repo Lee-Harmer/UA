@@ -1,8 +1,24 @@
 import type { Metadata } from 'next';
+import { Gloock, Jost } from 'next/font/google';
 import './globals.css';
 import { Nav } from '@/components/Nav';
 import { Footer } from '@/components/Footer';
 import { GlobalInit } from '@/components/GlobalInit';
+
+const gloock = Gloock({
+  weight: ['400'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-gloock',
+});
+
+const jost = Jost({
+  weight: ['300', '400', '500', '600'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-jost',
+});
 
 export const metadata: Metadata = {
   title: 'Umhlanga Accommodations - Holiday Rentals Since 1988',
@@ -19,15 +35,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-ZA">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Gloock:ital@0;1&family=Jost:wght@300;400;500;600&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="en-ZA" className={`${gloock.variable} ${jost.variable}`}>
       <body>
         <GlobalInit />
         <Nav />

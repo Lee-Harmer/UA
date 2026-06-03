@@ -705,6 +705,145 @@ export const articles: JournalArticle[] = [
       },
     ],
   },
+
+  {
+    slug: 'new-year-getaway-umhlanga',
+    title: 'Start the Year Right: New Year Getaways in Umhlanga',
+    category: 'Travel',
+    excerpt: "January is one of the best-kept secrets on the KZN coast. The crowds have thinned, the ocean is at its warmest, and Umhlanga slips back into its easy, unhurried rhythm. Here is how to make the most of it.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
+    publishedAt: '2026-01-10',
+    readingTime: 5,
+    body: [
+      {
+        type: 'p',
+        text: "The festive rush is over. The family has scattered back to Johannesburg and Pretoria. And Umhlanga, for a brief and glorious few weeks, belongs to the people who know to come in January. Water temperatures hover around 26–27 °C. The beach is wide and clean. Restaurants are no longer taking three-hour waits. This is the Umhlanga most visitors never see — and it is worth coming for.",
+      },
+      {
+        type: 'h2',
+        text: 'Why January Beats December',
+      },
+      {
+        type: 'p',
+        text: "December in Umhlanga is spectacular — and it shows. Every apartment is full, every parking bay is taken, and the promenade is shoulder-to-shoulder from sunrise to sunset. By the second week of January, the school-holiday crowd has largely gone home, rates drop, and availability opens up. The weather, if anything, improves: slightly fewer storms, longer clear days, and that deep summer warmth that makes even doing nothing feel like an achievement.",
+      },
+      {
+        type: 'tip',
+        label: 'Best value window',
+        text: "Book between 10–31 January for the best combination of availability, lower rates, and uncrowded beaches. Most schools return in the third week of January, which is when things quiet down fastest.",
+      },
+      {
+        type: 'h2',
+        text: 'Set Intentions, Not Alarms',
+      },
+      {
+        type: 'p',
+        text: "A January Umhlanga break works best when it is unstructured. Sleep past seven. Walk the promenade before the heat builds. Swim, dry off, swim again. Spend an afternoon on the balcony doing absolutely nothing in particular. The point is not to see everything — it is to decompress properly before the year begins in earnest.",
+      },
+      {
+        type: 'h2',
+        text: 'A Few Things Worth Doing',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Sunrise walk to the lighthouse — the beach is yours at 6 am.',
+          'Breakfast at one of the village cafés; January queues are short.',
+          'An afternoon at Bronze Beach lagoon, especially good for young children.',
+          'Dinner at any of the beachfront restaurants without a reservation — a January luxury.',
+          'A day trip to Ballito (30 minutes north) for a change of scenery and excellent seafood.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Choosing the Right Apartment',
+      },
+      {
+        type: 'p',
+        text: "January is a good time to go for something you might not stretch to in peak season. With rates lower and availability better, it is easier to secure a sea-facing unit or a property with a private braai. If you have been eyeing one of the larger apartments — something with three bedrooms and a full ocean view — January is when it becomes realistic.",
+      },
+      {
+        type: 'blockquote',
+        text: '"January in Umhlanga is the reward for everyone who had somewhere else to be in December."',
+      },
+    ],
+  },
+
+  {
+    slug: 'winter-in-umhlanga',
+    title: "Winter in Umhlanga: Why the Off-Season Is Worth It",
+    category: 'Local Guide',
+    excerpt: "Mild temperatures, empty beaches, whale sightings from the shore, and the best restaurant availability of the year — Umhlanga in winter is a different experience, and a quietly brilliant one.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/01/1-3.jpg',
+    publishedAt: '2026-06-01',
+    readingTime: 6,
+    body: [
+      {
+        type: 'p',
+        text: "Most people think of Umhlanga as a summer destination. They are not wrong — but they are missing something. Winter on the KwaZulu-Natal north coast is unlike winter almost anywhere else in South Africa. The days are clear and sunny. Temperatures sit in the low-to-mid twenties. The sea, though cooler than in summer, is still swimmable for those with a reasonable cold tolerance. And the town, freed from the school-holiday crowds, becomes a genuinely pleasant place to move through at your own pace.",
+      },
+      {
+        type: 'h2',
+        text: 'The Weather',
+      },
+      {
+        type: 'p',
+        text: "Umhlanga's winter (June through August) is characterised by dry, clear days and cool nights. Daytime highs typically reach 20–24 °C — warm enough for the beach, comfortable enough for walking. The humidity that makes summer afternoons heavy is gone. Rain is rare. If you are coming from the Highveld, where winter means frost and brown grass and grey skies, arriving in Umhlanga in July feels like being let out early.",
+      },
+      {
+        type: 'tip',
+        label: 'Packing note',
+        text: "Bring a light jacket or fleece for evenings — sea breezes can be cool after dark. Days, however, are comfortably t-shirt weather in most years.",
+      },
+      {
+        type: 'h2',
+        text: 'Whale Season',
+      },
+      {
+        type: 'p',
+        text: "This is the real headline. Between June and November, humpback whales migrate northward past Umhlanga on their way to their breeding grounds, then return south from August onwards. On a calm winter morning, it is not unusual to spot spouts and breaches from the beach, or even from a high-floor apartment balcony. The whales often pass surprisingly close to shore.",
+      },
+      {
+        type: 'p',
+        text: "For those who want to get closer, several operators run whale-watching charters from the Durban harbour. Trips run for approximately two hours and are conducted in accordance with South Africa's whale-watching regulations, which specify minimum approach distances to avoid disturbing the animals. Booking in advance is recommended.",
+      },
+      {
+        type: 'h2',
+        text: 'The Town Without the Crowds',
+      },
+      {
+        type: 'p',
+        text: "Winter Umhlanga is unhurried in a way that summer never quite manages. Tables at good restaurants are available without a week's notice. Parking on the beachfront is straightforward. The promenade in the early morning is yours, more or less, apart from the regular joggers and the occasional dog-walker. It is easier to appreciate the architecture of the village, the quality of the light, the sound of the sea — when you are not navigating around a crowd.",
+      },
+      {
+        type: 'h2',
+        text: 'What to Do in Winter',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Whale watching from the beach or the lighthouse point — peak season is July to October.',
+          'Long lunches at beachfront restaurants — no queue, no rush.',
+          'Walking the full promenade from Lagoon Beach to Bronze Beach without breaking a sweat.',
+          'Gateway Theatre of Shopping for an afternoon — fully enclosed, great for a cooler day.',
+          'Exploring the Village on foot — the boutiques and coffee shops are far more accessible off-season.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Rates and Availability',
+      },
+      {
+        type: 'p',
+        text: "Low-season rates apply across most of our properties from June through July, making it the most affordable time of year to stay in Umhlanga. Properties that are frequently booked solid in December — particularly our larger sea-facing apartments — are often available at short notice in winter. If you have been considering a longer stay, a two- or three-week winter break is both practical and well-priced.",
+      },
+      {
+        type: 'blockquote',
+        text: '"I have come in December three times and in June twice. June wins, every time. The town is yours."',
+      },
+    ],
+  },
+
 ];
 
 export function getArticleBySlug(slug: string): JournalArticle | undefined {
