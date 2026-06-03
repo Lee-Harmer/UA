@@ -7,7 +7,7 @@ import { GlobalInit } from '@/components/GlobalInit';
 
 const gloock = Gloock({
   weight: ['400'],
-  style: ['normal', 'italic'],
+  style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-gloock',
