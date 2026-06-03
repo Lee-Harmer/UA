@@ -220,7 +220,7 @@ export default async function UnitDetailPage({ params }: Props) {
                 <div className="enquiry-card__divider">or</div>
 
                 <a
-                  href={`mailto:info@umhlangaaccommodation.co.za?subject=${encodeURIComponent(`${unit.name} - Accommodation Enquiry`)}`}
+                  href={`mailto:reservations@umhlangaaccommodation.co.za?subject=${encodeURIComponent(`${unit.name} - Accommodation Enquiry`)}`}
                   className="btn btn--ocean"
                   style={{ width: '100%', justifyContent: 'center' }}
                 >
