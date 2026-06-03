@@ -3371,10 +3371,10 @@ export const complexes: Complex[] = [
     highlights: [
       'Beachfront position',
       'Private sea-view balconies',
-      'Pool and braai facilities',
+      'Braai facilities',
       'Near Umhlanga Village',
     ],
-    complexAmenities: ['pool', 'undercover-parking', 'wifi', 'sea-views', 'balcony', 'braai'],
+    complexAmenities: ['undercover-parking', 'wifi', 'sea-views', 'balcony', 'braai'],
     units: [
       {
         id: 'sea-breeze-4',
