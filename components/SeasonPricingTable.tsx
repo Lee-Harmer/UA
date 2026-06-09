@@ -12,7 +12,7 @@ interface SeasonPricingTableProps {
 }
 
 export function SeasonPricingTable({ unit, complexSlug }: SeasonPricingTableProps) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   const minRate = Math.min(...unit.rates.map((r) => r.perNight));
   const maxRate = Math.max(...unit.rates.map((r) => r.perNight));
@@ -73,6 +73,24 @@ export function SeasonPricingTable({ unit, complexSlug }: SeasonPricingTableProp
             {/* Gallery */}
             {unit.images.length > 0 && (
               <UnitGallery images={unit.images} name={unit.name} />
+            )}
+
+            {/* Video walkthrough */}
+            {unit.videoUrl && (
+              <div style={{ marginBottom: '1.5rem' }}>
+                <p style={{ font: '500 0.7rem/1 var(--font-body)', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--ocean)', marginBottom: '0.75rem' }}>
+                  Video Walkthrough
+                </p>
+                <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, borderRadius: '4px', overflow: 'hidden', background: 'var(--near-black)' }}>
+                  <iframe
+                    src={unit.videoUrl}
+                    title={`${unit.name} video walkthrough`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                  />
+                </div>
+              </div>
             )}
 
             {/* Description */}
@@ -149,6 +167,20 @@ export function SeasonPricingTable({ unit, complexSlug }: SeasonPricingTableProp
               >
                 Book via Nightsbridge <ExternalLink size={13} />
               </a>
+            )}
+
+            {/* View full unit CTA */}
+            {complexSlug && (
+              <div style={{ marginTop: '1.5rem', paddingTop: '1.5rem', borderTop: '1px solid var(--warm-grey)' }}>
+                <Link
+                  href={`/properties/${complexSlug}/${unit.id}`}
+                  onClick={(e) => e.stopPropagation()}
+                  className="btn btn--ocean"
+                  style={{ width: '100%', justifyContent: 'center', fontSize: '0.95rem' }}
+                >
+                  View Full Details for {unit.name}
+                </Link>
+              </div>
             )}
           </div>
         </div>

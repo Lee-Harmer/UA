@@ -11,12 +11,11 @@ export default function HomePage() {
   return (
     <main>
       <HeroSection />
-      <TrustBar />
-      <WhyUmhlanga />
       <FeaturedProperties />
       <AmenitiesHighlight />
-      <ThingsToDoTeaser />
       <AboutTeaser />
+      <WhyUmhlanga />
+      <ThingsToDoTeaser />
 
       {/* CTA Strip */}
       <section className="cta-strip">

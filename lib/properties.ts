@@ -2071,7 +2071,7 @@ export const complexes: Complex[] = [
     name: 'Cormoran',
     tagline: 'Comfortable self-catering close to the beach',
     location: 'Umhlanga Rocks',
-    category: 'selfcatering',
+    category: 'beachfront',
     featured: false,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/01/1-1.jpg',
     description:
@@ -2902,7 +2902,7 @@ export const complexes: Complex[] = [
     name: 'Kyalanga',
     tagline: 'Peaceful self-catering with easy beach access',
     location: 'Umhlanga Rocks',
-    category: 'selfcatering',
+    category: 'beachfront',
     featured: false,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/02/1-1.jpg',
     description:
@@ -3133,7 +3133,7 @@ export const complexes: Complex[] = [
     name: 'Marine Terrace',
     tagline: 'Bright 4-bedroom apartment with sea views on Marine Drive',
     location: 'Umhlanga Rocks',
-    category: 'selfcatering',
+    category: 'beachfront',
     featured: false,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
     description:
@@ -3210,7 +3210,7 @@ export const complexes: Complex[] = [
     name: 'Ocean Apartments',
     tagline: 'Modern apartments with the ocean at your doorstep',
     location: 'Umhlanga Rocks',
-    category: 'selfcatering',
+    category: 'village',
     featured: false,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2026/03/1-1.jpg',
     description:
@@ -3265,7 +3265,7 @@ export const complexes: Complex[] = [
     name: 'Pearls',
     tagline: 'Luxury living above Umhlanga with sweeping sea views',
     location: 'Umhlanga Ridge',
-    category: 'luxury',
+    category: 'beachfront',
     featured: true,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/11/1.jpg',
     description:
@@ -3756,7 +3756,7 @@ export const complexes: Complex[] = [
     name: 'Stanley Grace',
     tagline: 'Spacious 4-bedroom family home with pool, sea views & double garage',
     location: 'Umhlanga Rocks',
-    category: 'selfcatering',
+    category: 'village',
     featured: false,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2019/06/pool2.jpg',
     description:
@@ -3819,7 +3819,7 @@ export const complexes: Complex[] = [
     name: 'Terra Mare',
     tagline: 'Where earth meets sea in beautiful Umhlanga',
     location: 'Umhlanga Rocks',
-    category: 'selfcatering',
+    category: 'beachfront',
     featured: false,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/1-4.jpg',
     description:
@@ -3885,7 +3885,7 @@ export const complexes: Complex[] = [
     name: 'The Shades',
     tagline: 'A home away from home, 500m from the beach',
     location: '500m from Umhlanga Main Beach',
-    category: 'selfcatering',
+    category: 'village',
     featured: true,
     coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/11/1.jpg',
     description:

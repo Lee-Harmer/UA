@@ -73,16 +73,6 @@ export default async function ComplexDetailPage({ params }: Props) {
           <div className="prop-detail__layout">
             {/* Main */}
             <div className="prop-detail__main">
-              {/* Description */}
-              <p className="prop-detail__description">{complex.description}</p>
-
-              {/* Highlights */}
-              <ul className="prop-detail__highlights">
-                {complex.highlights.map((h) => (
-                  <li key={h}>{h}</li>
-                ))}
-              </ul>
-
               {/* Units */}
               <h2 className="prop-detail__section-title">
                 Available Units ({complex.units.length})
@@ -100,6 +90,16 @@ export default async function ComplexDetailPage({ params }: Props) {
 
             {/* Sidebar */}
             <aside className="prop-detail__sidebar">
+              {/* Description */}
+              <p className="prop-detail__description">{complex.description}</p>
+
+              {/* Highlights */}
+              <ul className="prop-detail__highlights" style={{ marginBottom: '2rem' }}>
+                {complex.highlights.map((h) => (
+                  <li key={h}>{h}</li>
+                ))}
+              </ul>
+
               <div className="enquiry-card">
                 <p className="enquiry-card__title">Make an Enquiry</p>
                 <p className="enquiry-card__sub">

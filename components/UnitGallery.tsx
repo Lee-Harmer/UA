@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -17,6 +17,7 @@ const overlayStyle: React.CSSProperties = {
 
 export function UnitGallery({ images, name }: UnitGalleryProps) {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const isOpen = lightboxIndex !== null;
 
   const open = (i: number) => setLightboxIndex(i);
   const close = () => setLightboxIndex(null);
@@ -29,65 +30,137 @@ export function UnitGallery({ images, name }: UnitGalleryProps) {
     if (e.key === 'ArrowRight') next();
   };
 
+  // Attach swipe/drag listeners to window when lightbox is open
+  useEffect(() => {
+    if (!isOpen) return;
+
+    let startX = 0;
+    let startY = 0;
+    let dragging = false;
+
+    const onTouchStart = (e: TouchEvent) => {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+    };
+
+    const onTouchEnd = (e: TouchEvent) => {
+      const diffX = startX - e.changedTouches[0].clientX;
+      const diffY = Math.abs(startY - e.changedTouches[0].clientY);
+      if (Math.abs(diffX) > 50 && Math.abs(diffX) > diffY) {
+        if (diffX > 0) {
+          setLightboxIndex((i) => (i! < images.length - 1 ? i! + 1 : 0));
+        } else {
+          setLightboxIndex((i) => (i! > 0 ? i! - 1 : images.length - 1));
+        }
+      }
+    };
+
+    const onMouseDown = (e: MouseEvent) => {
+      startX = e.clientX;
+      dragging = true;
+    };
+
+    const onMouseUp = (e: MouseEvent) => {
+      if (!dragging) return;
+      dragging = false;
+      const diffX = startX - e.clientX;
+      if (Math.abs(diffX) > 50) {
+        if (diffX > 0) {
+          setLightboxIndex((i) => (i! < images.length - 1 ? i! + 1 : 0));
+        } else {
+          setLightboxIndex((i) => (i! > 0 ? i! - 1 : images.length - 1));
+        }
+      }
+    };
+
+    window.addEventListener('touchstart', onTouchStart);
+    window.addEventListener('touchend', onTouchEnd);
+    window.addEventListener('mousedown', onMouseDown);
+    window.addEventListener('mouseup', onMouseUp);
+    return () => {
+      window.removeEventListener('touchstart', onTouchStart);
+      window.removeEventListener('touchend', onTouchEnd);
+      window.removeEventListener('mousedown', onMouseDown);
+      window.removeEventListener('mouseup', onMouseUp);
+    };
+  }, [isOpen, images.length]);
+
   // Desktop: hero + 4 thumbs. Mobile (CSS): hero full-width + 2 thumbs.
   const preview = images.slice(0, 5);
-  const desktopRemaining = images.length - 5;   // shown on 4th thumb (desktop)
-  const mobileRemaining = images.length - 3;    // shown on 2nd thumb (mobile)
+  const desktopRemaining = images.length - 5;
+  const mobileRemaining = images.length - 3;
+  const thumbs = preview.slice(1);
+  const hasThumbPair = thumbs.length >= 2;
 
   return (
     <>
-      <div className="unit-gallery__grid">
-        {/* Hero image */}
-        <div className="unit-gallery__main" onClick={() => open(0)}>
-          <Image
-            src={images[0]}
-            alt={`${name} - photo 1`}
-            fill
-            priority
-            style={{ objectFit: 'cover', transition: 'transform 500ms ease' }}
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="gallery-img"
-          />
+      {/* Single image — no grid */}
+      {images.length === 1 && (
+        <div style={{ position: 'relative', aspectRatio: '16/9', marginBottom: '1.5rem', borderRadius: '4px', overflow: 'hidden', cursor: 'pointer' }} onClick={() => open(0)}>
+          <Image src={images[0]} alt={`${name} - photo 1`} fill priority style={{ objectFit: 'cover' }} sizes="100vw" className="gallery-img" />
         </div>
+      )}
 
-        {/* Smaller previews */}
-        {preview.slice(1).map((src, i) => {
-          // Desktop: show all 4 thumbs; mobile CSS hides thumbs 2 & 3
-          const isDesktopOnly = i >= 2;
-          return (
-            <div
-              key={src}
-              className={`unit-gallery__thumb${isDesktopOnly ? ' unit-gallery__thumb--desktop-only' : ''}`}
-              onClick={() => open(i + 1)}
-            >
-              <Image
-                src={src}
-                alt={`${name} - photo ${i + 2}`}
-                fill
-                style={{ objectFit: 'cover', transition: 'transform 500ms ease' }}
-                sizes="(max-width: 768px) 50vw, 25vw"
-                className="gallery-img"
-              />
-
-              {/* Desktop overlay: on 4th thumb */}
-              {i === 3 && desktopRemaining > 0 && (
-                <div className="unit-gallery__more--desktop" style={overlayStyle}>
-                  <span style={{ font: '600 1.6rem/1 var(--font-display)', color: 'var(--white)' }}>+{desktopRemaining}</span>
-                  <span style={{ font: '500 0.68rem/1 var(--font-body)', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.75)' }}>more photos</span>
-                </div>
-              )}
-
-              {/* Mobile overlay: on 2nd thumb (index 1) */}
-              {i === 1 && mobileRemaining > 0 && (
-                <div className="unit-gallery__more--mobile" style={overlayStyle}>
-                  <span style={{ font: '600 1.4rem/1 var(--font-display)', color: 'var(--white)' }}>+{mobileRemaining}</span>
-                  <span style={{ font: '500 0.65rem/1 var(--font-body)', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.75)' }}>more photos</span>
-                </div>
-              )}
+      {/* 2 images — side by side */}
+      {images.length === 2 && (
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2px', marginBottom: '1.5rem', borderRadius: '4px', overflow: 'hidden', background: 'var(--white)' }}>
+          {images.map((src, i) => (
+            <div key={src} style={{ position: 'relative', aspectRatio: '4/3', cursor: 'pointer', overflow: 'hidden' }} onClick={() => open(i)}>
+              <Image src={src} alt={`${name} - photo ${i + 1}`} fill style={{ objectFit: 'cover' }} sizes="50vw" className="gallery-img" />
             </div>
-          );
-        })}
-      </div>
+          ))}
+        </div>
+      )}
+
+      {/* 3+ images — grid layout */}
+      {images.length >= 3 && (
+        <div className="unit-gallery__grid">
+          <div className="unit-gallery__main" onClick={() => open(0)}>
+            <Image
+              src={images[0]}
+              alt={`${name} - photo 1`}
+              fill
+              priority
+              style={{ objectFit: 'cover', transition: 'transform 500ms ease' }}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="gallery-img"
+            />
+          </div>
+
+          {thumbs.map((src, i) => {
+            if (!hasThumbPair && i >= 1) return null;
+            const isDesktopOnly = i >= 2;
+            return (
+              <div
+                key={src}
+                className={`unit-gallery__thumb${isDesktopOnly ? ' unit-gallery__thumb--desktop-only' : ''}`}
+                onClick={() => open(i + 1)}
+              >
+                <Image
+                  src={src}
+                  alt={`${name} - photo ${i + 2}`}
+                  fill
+                  style={{ objectFit: 'cover', transition: 'transform 500ms ease' }}
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  className="gallery-img"
+                />
+                {i === 3 && desktopRemaining > 0 && (
+                  <div className="unit-gallery__more--desktop" style={overlayStyle}>
+                    <span style={{ font: '600 1.6rem/1 var(--font-display)', color: 'var(--white)' }}>+{desktopRemaining}</span>
+                    <span style={{ font: '500 0.68rem/1 var(--font-body)', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.75)' }}>more photos</span>
+                  </div>
+                )}
+                {i === 1 && mobileRemaining > 0 && (
+                  <div className="unit-gallery__more--mobile" style={overlayStyle}>
+                    <span style={{ font: '600 1.4rem/1 var(--font-display)', color: 'var(--white)' }}>+{mobileRemaining}</span>
+                    <span style={{ font: '500 0.65rem/1 var(--font-body)', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.75)' }}>more photos</span>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       {/* Lightbox */}
       {lightboxIndex !== null && (
@@ -96,6 +169,7 @@ export function UnitGallery({ images, name }: UnitGalleryProps) {
             position: 'fixed', inset: 0, zIndex: 200,
             background: 'rgba(10,18,30,0.96)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
+            userSelect: 'none',
           }}
           onClick={close}
           onKeyDown={handleKey}
@@ -104,7 +178,7 @@ export function UnitGallery({ images, name }: UnitGalleryProps) {
           aria-label={`Photo ${lightboxIndex + 1} of ${images.length}`}
         >
           <button
-            onClick={close}
+            onClick={(e) => { e.stopPropagation(); close(); }}
             style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', background: 'none', border: 'none', cursor: 'pointer', color: 'rgba(255,255,255,0.7)', zIndex: 1 }}
             aria-label="Close gallery"
           >

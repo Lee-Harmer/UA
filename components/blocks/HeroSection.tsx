@@ -38,12 +38,11 @@ export function HeroSection() {
         </span>
 
         <h1 className="display-xl hero__headline">
-          Escape to<br /><em>Umhlanga</em>
+          <em>Umhlanga Accommodations</em><br />Holiday Rentals Since 1988
         </h1>
 
         <p className="body-lg hero__sub">
-          Beachfront apartments on the KwaZulu-Natal coast.
-          Personally managed since 1988.
+          Beachfront apartments on the KwaZulu-Natal coast, personally managed since 1988.
         </p>
 
         <div className="hero__ctas">

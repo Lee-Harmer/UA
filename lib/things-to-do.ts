@@ -241,7 +241,7 @@ export const attractions: Attraction[] = [
     openingHours: 'City sights generally daily; markets Mon–Sat',
     entryFee: 'Most sights free or individually priced',
     highlight: 'Africa\'s most Indian city outside India - the spice markets and curry scene alone are worth the trip.',
-    image: 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=900&q=80',
+    image: '/images/golden-mile.jpg',
   },
   {
     id: 'valley-of-1000-hills',

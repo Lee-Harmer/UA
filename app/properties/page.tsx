@@ -9,10 +9,9 @@ type FilterValue = 'all' | ComplexCategory;
 const FILTERS: { label: string; value: FilterValue }[] = [
   { label: 'All Properties', value: 'all' },
   { label: 'Beachfront',     value: 'beachfront' },
-  { label: 'Luxury',         value: 'luxury' },
-  { label: 'Resort',         value: 'resort' },
   { label: 'Village',        value: 'village' },
-  { label: 'Self-Catering',  value: 'selfcatering' },
+  { label: 'Resort',         value: 'resort' },
+  { label: 'Luxury',         value: 'luxury' },
 ];
 
 export default function PropertiesPage() {

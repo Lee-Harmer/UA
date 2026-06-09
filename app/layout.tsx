@@ -25,11 +25,16 @@ export const metadata: Metadata = {
   description:
     'Premium self-catering holiday accommodation in Umhlanga Rocks, KwaZulu-Natal. 70+ units across 19 complexes. Personal service since 1988. Call +27 31 561 2012.',
   keywords: 'Umhlanga accommodation, holiday rentals, self catering, KwaZulu-Natal, beach apartments, Umhlanga Rocks',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: 'Umhlanga Accommodations - Holiday Rentals Since 1988',
     description: 'Premium self-catering holiday apartments in Umhlanga Rocks. Personal service since 1988.',
     type: 'website',
     locale: 'en_ZA',
+    images: [{ url: '/logo.png' }],
   },
 };
 
