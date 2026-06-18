@@ -290,7 +290,7 @@ a { color: inherit; text-decoration: none; }
   left: 0;
   right: 0;
   z-index: 100;
-  padding-block: 1.5rem;
+  padding-block: 0.5rem;
   transition:
     background var(--dur-mid) var(--ease-std),
     box-shadow var(--dur-mid) var(--ease-std),
@@ -376,7 +376,7 @@ a { color: inherit; text-decoration: none; }
 .site-nav__logo-img {
   display: block;
   width: auto;
-  height: 100px;
+  height: 180px;
   object-fit: contain;
   filter: drop-shadow(0 1px 3px rgba(0,0,0,0.35));
   transition: filter var(--dur-mid) var(--ease-std);
@@ -2632,7 +2632,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 768px) {
   .site-nav__links { display: none; }
   .site-nav__hamburger { display: flex; }
-  .site-nav__logo-img { height: 72px; }
+  .site-nav__logo-img { height: 110px; }
 
   /* Property hero — center content on mobile, strengthen overlay */
   .prop-detail__hero {
