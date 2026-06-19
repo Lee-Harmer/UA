@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { complexes, ComplexCategory } from '@/lib/properties';
 import { PropertyCard } from '@/components/PropertyCard';
-import { SeasonCalendar } from '@/components/SeasonCalendar';
 
 type FilterValue = 'all' | ComplexCategory;
 
@@ -70,13 +69,6 @@ export default function PropertiesPage() {
               <p className="body-lg">No properties found for this filter.</p>
             </div>
           )}
-        </div>
-      </section>
-
-      {/* Season calendar */}
-      <section style={{ paddingBottom: '3rem' }}>
-        <div className="container">
-          <SeasonCalendar />
         </div>
       </section>
 

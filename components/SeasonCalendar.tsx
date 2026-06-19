@@ -94,32 +94,41 @@ function CalendarTable({ rows }: { rows: SeasonRow[] }) {
   );
 }
 
-export function SeasonCalendar() {
+export function SeasonCalendar({ alwaysOpen }: { alwaysOpen?: boolean }) {
   const [open, setOpen] = useState(true);
   const [year, setYear] = useState<2026 | 2027>(2026);
 
   return (
     <div style={{ border: '1px solid var(--warm-grey)', borderRadius: '4px', marginBottom: '2rem', background: 'var(--white)' }}>
       {/* Header */}
-      <button
-        onClick={() => setOpen(!open)}
-        style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1rem 1.25rem', background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left' }}
-        aria-expanded={open}
-      >
-        <div>
+      {alwaysOpen ? (
+        <div style={{ padding: '1rem 1.25rem' }}>
           <span style={{ font: '600 0.9rem/1 var(--font-body)', color: 'var(--charcoal)' }}>Season Date Calendar</span>
           <span style={{ display: 'block', font: '400 0.75rem/1 var(--font-body)', color: 'var(--mid-grey)', marginTop: '0.3rem' }}>
-            When does each season apply? Click to view dates &amp; minimum stays.
+            When does each season apply? Dates &amp; minimum stays below.
           </span>
         </div>
-        <ChevronDown
-          size={18}
-          strokeWidth={1.5}
-          style={{ color: 'var(--mid-grey)', flexShrink: 0, transform: open ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.2s' }}
-        />
-      </button>
+      ) : (
+        <button
+          onClick={() => setOpen(!open)}
+          style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1rem 1.25rem', background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left' }}
+          aria-expanded={open}
+        >
+          <div>
+            <span style={{ font: '600 0.9rem/1 var(--font-body)', color: 'var(--charcoal)' }}>Season Date Calendar</span>
+            <span style={{ display: 'block', font: '400 0.75rem/1 var(--font-body)', color: 'var(--mid-grey)', marginTop: '0.3rem' }}>
+              When does each season apply? Click to view dates &amp; minimum stays.
+            </span>
+          </div>
+          <ChevronDown
+            size={18}
+            strokeWidth={1.5}
+            style={{ color: 'var(--mid-grey)', flexShrink: 0, transform: open ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.2s' }}
+          />
+        </button>
+      )}
 
-      {open && (
+      {(alwaysOpen || open) && (
         <div style={{ borderTop: '1px solid var(--warm-grey)', padding: '1.25rem' }}>
           {/* Year tabs */}
           <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.25rem' }}>

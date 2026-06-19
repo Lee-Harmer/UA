@@ -109,6 +109,11 @@ export function SeasonPricingTable({ unit, complexSlug }: SeasonPricingTableProp
                 </div>
               ))}
             </div>
+            <div style={{ marginBottom: '1.25rem' }}>
+              <Link href="/season-calendar" className="btn btn--outline" style={{ padding: '0.6rem 1.25rem', fontSize: '0.72rem' }}>
+                View season dates &amp; minimum stays →
+              </Link>
+            </div>
 
             {/* Fees */}
             {(unit.bookingFee || unit.securityDeposit) && (
