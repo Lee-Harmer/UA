@@ -966,6 +966,7 @@ export const complexes: Complex[] = [
         ],
         mapUrl: 'https://maps.app.goo.gl/eZBv5ggtXQLeHyFb6?g_st=awb',
         nightsbridgeUrl: 'https://book.nightsbridge.com/23664?bbrtid=7',
+        videoUrl: 'https://www.youtube.com/embed/mrKXhMEqQfw',
       },
       {
         id: 'bronze-bay-12',
@@ -1136,6 +1137,7 @@ export const complexes: Complex[] = [
         ],
         mapUrl: 'https://maps.app.goo.gl/eZBv5ggtXQLeHyFb6?g_st=awb',
         nightsbridgeUrl: 'https://book.nightsbridge.com/23664?bbrtid=11',
+        videoUrl: 'https://www.youtube.com/embed/BHZ6FgVkffk',
       },
       {
         id: 'bronze-bay-24',
@@ -1297,10 +1299,11 @@ export const complexes: Complex[] = [
     description:
       'Bronze Beach apartments offer a relaxed beachfront self-catering experience. Ideally positioned between the lagoon and the sea, with access to the scenic promenade and coastal forest walks.',
     highlights: [
-      'Steps from Bronze Beach',
-      'Lagoon nature reserve access',
-      'Pool and secure parking',
-      'Sea views from upper floors',
+      'Lagoon Drive, Beach side',
+      'Right on the promenade and beach',
+      'Ocean Views',
+      'Self Catering',
+      '2 and 3 Bedroom Apartments',
     ],
     complexAmenities: ['pool', 'undercover-parking', 'wifi', 'sea-views', 'balcony'],
     units: [
@@ -3371,6 +3374,7 @@ export const complexes: Complex[] = [
         ],
         mapUrl: 'https://maps.app.goo.gl/SgZEeWmGYrCeEQ619?g_st=awb',
         nightsbridgeUrl: 'https://book.nightsbridge.com/23664?bbrtid=54',
+        videoUrl: 'https://www.youtube.com/embed/CGuIR-vRS7M',
       },
       {
         id: 'sea-lodge-64',
@@ -3424,6 +3428,7 @@ export const complexes: Complex[] = [
         ],
         mapUrl: 'https://maps.app.goo.gl/w7ogB3wCe1TviBWr8?g_st=awb',
         nightsbridgeUrl: 'https://book.nightsbridge.com/23664?bbrtid=93',
+        videoUrl: 'https://www.youtube.com/embed/vZw9aoUFIUw',
       },
       {
         id: 'sea-lodge-72',
@@ -3467,6 +3472,7 @@ export const complexes: Complex[] = [
         ],
         mapUrl: 'https://maps.app.goo.gl/iaVhiGJSPifkGsTx6?g_st=awb',
         nightsbridgeUrl: 'https://book.nightsbridge.com/23664?bbrtid=55',
+        videoUrl: 'https://www.youtube.com/embed/abqXITOM330',
       },
       {
         id: 'sea-lodge-84',

@@ -844,6 +844,83 @@ export const articles: JournalArticle[] = [
     ],
   },
 
+  // ── JUNE ───────────────────────────────────────────────────────────────────
+
+  {
+    slug: 'whale-watching-umhlanga',
+    title: 'Whale Watching in Umhlanga: Your Winter Guide',
+    category: 'Local Guide',
+    excerpt: "Every June, humpback whales begin passing the KwaZulu-Natal coast on their northward migration — and Umhlanga is one of the best places in South Africa to watch them from the shore.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/01/1-3.jpg',
+    publishedAt: '2026-06-23',
+    readingTime: 5,
+    body: [
+      {
+        type: 'p',
+        text: "Each year between June and November, humpback whales migrate northward along the KwaZulu-Natal coastline on their way to warmer breeding grounds — and then return south again in the months that follow. The KZN coast sits directly in their path, and from Umhlanga's elevated promenade and sea-facing balconies, sightings are a near-daily occurrence at the peak of the season.",
+      },
+      {
+        type: 'h2',
+        text: 'When to Look',
+      },
+      {
+        type: 'p',
+        text: "The northward migration runs from June through August — this is when you are most likely to spot humpbacks close to shore, sometimes in groups, occasionally breaching. The southward return from September through November brings mothers with calves. Both phases are worth watching, but the June–August window tends to produce the most dramatic sightings.",
+      },
+      {
+        type: 'tip',
+        label: 'Best time of day',
+        text: 'Early morning on a calm day gives the clearest viewing conditions. The sea surface is flatter, the light is good, and whales are often more active. Bring binoculars — sightings can be as close as a few hundred metres.',
+      },
+      {
+        type: 'h2',
+        text: 'Where to Watch From',
+      },
+      {
+        type: 'ul',
+        items: [
+          'The Umhlanga promenade — elevated above the shore and stretching 2.5 km, it gives an unobstructed view of the ocean. Walk slowly and scan the horizon.',
+          'The lighthouse headland — the rocky point at the north end of Main Beach offers height and a wide field of view.',
+          'Bronze Beach — quieter and further north, with an open horizon and fewer people to look past.',
+          'Your apartment balcony — any sea-facing upper-floor apartment is well-positioned. Humpbacks are large enough to spot without binoculars when they breach.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'What You Might See',
+      },
+      {
+        type: 'p',
+        text: "Humpback whales are the most commonly sighted species along this stretch of coast, recognisable by their long pectoral fins and habit of breaching — launching their full body clear of the water. Southern right whales are also occasionally spotted, identifiable by the callosities on their heads and the absence of a dorsal fin. Dolphins are a year-round presence and will often appear in the same area.",
+      },
+      {
+        type: 'blockquote',
+        text: '"We watched three humpbacks from the balcony for nearly an hour. It was completely unexpected and entirely unforgettable."',
+      },
+      {
+        type: 'h2',
+        text: 'Boat-Based Whale Watching',
+      },
+      {
+        type: 'p',
+        text: "For a closer encounter, several operators run whale-watching boat trips from Durban harbour, approximately 20 minutes south of Umhlanga. These trips go out specifically to find and follow the whales at a respectful distance, and on a good day you can be within metres of an animal the length of a bus. Trips typically run two to three hours — worth booking a day or two in advance during peak season.",
+      },
+      {
+        type: 'tip',
+        label: 'No trip needed',
+        text: "Shore-based sightings from Umhlanga are genuinely common in winter. Before booking a boat trip, spend a morning on the promenade — you may not need to go any further.",
+      },
+      {
+        type: 'h2',
+        text: 'Winter Is Worth It',
+      },
+      {
+        type: 'p',
+        text: "Whale season coincides with Umhlanga's best winter weather — clear skies, low humidity, and temperatures in the low-to-mid twenties. The beaches are quieter, the restaurants are easier to get into, and low-season rates apply across most of our properties. If you have been considering a winter stay, this is the reason to book it.",
+      },
+    ],
+  },
+
 ];
 
 export function getArticleBySlug(slug: string): JournalArticle | undefined {
