@@ -211,7 +211,7 @@ export const complexes: Complex[] = [
     location: 'Umhlanga Promenade',
     category: 'resort',
     featured: false,
-    coverImage: '/images/units/breakers-128/5.jpg',
+    coverImage: '/images/Breakers.jpg',
     description:
       'Breakers Resort sits at the very start of the iconic Umhlanga promenade. Enjoy the perfect blend of self-catering freedom and resort-style perks - including a sparkling pool, braai area, on-site restaurant, and gym. Privately owned units managed by Umhlanga Accommodations with a professional touch and a personal feel.',
     highlights: [
@@ -685,20 +685,19 @@ export const complexes: Complex[] = [
     location: 'Bronze Beach, Umhlanga',
     category: 'beachfront',
     featured: false,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/10/20.jpg',
+    coverImage: '/images/Bronze Bay.jpg',
     description:
       'Bronze Bay is where the Umhlanga Accommodations story began in 1988. Located right on Bronze Beach, these self-catering apartments offer the quintessential Umhlanga beach holiday experience.',
     highlights: [
       'Direct Bronze Beach access',
       'Sea views from most units',
       'Lagoon walk access',
-      'Swimming pool',
     ],
-    complexAmenities: ['pool', 'undercover-parking', 'wifi', 'sea-views'],
+    complexAmenities: ['undercover-parking', 'wifi', 'sea-views'],
     units: [
       {
         id: 'bronze-bay-1',
-        name: 'Bronze Bay - 2 Bed',
+        name: '1 Bronze Bay - 2 Bed',
         description: 'This 2 bedroom apartment is on beach level, ground floor. Walk out of your lounge and main bedroom to the grass, then onto the promenade and straight onto the beach. Enjoy a scenic 3km promenade walk. Features full air-conditioning, en-suite bath in the main bedroom, and a separate shower/toilet in the second bedroom with twin beds.',
         bedrooms: 2,
         bathrooms: 1,
@@ -709,7 +708,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 2400 },
           { season: 'high',    label: 'High Season',   perNight: 3050 },
         ],
-        amenities: ['aircon', 'balcony', 'bath', 'dstv', 'pool', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['aircon', 'balcony', 'bath', 'dstv', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/10/20.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/10/1.jpg',
@@ -738,7 +737,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-2',
-        name: 'Bronze Bay 2 - 2 Bed',
+        name: '2 Bronze Bay - 2 Bed',
         description: 'Welcome to this stunning 2-bedroom, 2-bathroom apartment located right on the golden shores of Umhlanga Beach. Ground floor with ocean vistas from the lounge and main bedroom. The main bedroom has a king-size bed with smart TV and en-suite bath. The second bedroom is similarly appointed with modern amenities throughout.',
         bedrooms: 2,
         bathrooms: 2,
@@ -780,7 +779,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-3',
-        name: 'Bronze Bay 3 - 2 Bed',
+        name: '3 Bronze Bay - 2 Bed',
         description: 'Escape to this gorgeous beachfront 2-bedroom, 2-bathroom self-catering apartment, just steps from the sandy shore! Breathtaking ocean views, air conditioning, WiFi, full DSTV, dishwasher, and inverter. Includes gas braai and air fryer. Beach towels and board games provided. Located just a 2-minute walk from the main beaches.',
         bedrooms: 2,
         bathrooms: 2,
@@ -822,7 +821,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-6',
-        name: 'Bronze Bay 6 - 2 Bed',
+        name: '6 Bronze Bay - 2 Bed',
         description: 'Come to Umhlanga and stay in this lovely apartment with amazing sea-views. One floor up from the beach with a large balcony - ideal for watching the sunrise and spotting dolphins. Main bedroom has en-suite bath/toilet; second bedroom has twin beds with a guest bathroom featuring shower/toilet. Perfect for relaxing with a glass of wine and the ocean before you.',
         bedrooms: 2,
         bathrooms: 2,
@@ -861,7 +860,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-8',
-        name: 'Bronze Bay 8 - 2 Bed',
+        name: '8 Bronze Bay - 2 Bed',
         description: 'Welcome to your perfect seaside escape, located on Lagoon Drive, just steps from the stunning Umhlanga Beach. Two bedrooms and two bathrooms designed for families or small groups. The open-plan living area flows onto a private balcony with braai facilities - everything you need for a comfortable and memorable stay.',
         bedrooms: 2,
         bathrooms: 2,
@@ -897,7 +896,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-10',
-        name: 'Bronze Bay 10 - 2 Bed',
+        name: '10 Bronze Bay - 2 Bed',
         description: 'This great apartment has gorgeous sea-views from the lounge and main bedroom, both of which open onto the balcony. Wake up to ocean vistas with the chance of dolphin sightings. Main bedroom has en-suite shower/toilet; second bedroom has twin beds. Ideal for relaxing after beach activities like sunbathing and surfing.',
         bedrooms: 2,
         bathrooms: 2,
@@ -933,7 +932,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-11',
-        name: 'Bronze Bay 11 - 2 Bed',
+        name: '11 Bronze Bay - 2 Bed',
         description: "Everyone's idea of a holiday is to open the front door and be welcomed by a magnificent sea-view. Both the main bedroom and lounge open onto a large balcony, maximising the views. Main bedroom has en-suite bath/toilet; second bedroom has twin beds. Inverter installed for power outages; skottle braai on the balcony available.",
         bedrooms: 2,
         bathrooms: 2,
@@ -970,7 +969,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-12',
-        name: 'Bronze Bay 12 - 2 Bed',
+        name: '12 Bronze Bay - 2 Bed',
         description: 'Walk into the lounge and enjoy the beautiful sea-views in front of you. The lounge, dining room and kitchen are all open plan and look onto the sand, sea and sky! Large balcony perfect for morning coffee or evening sundowners. Air-conditioned with DSTV, Netflix, uncapped WiFi, guest shower/toilet, en-suite main bedroom, and twin beds in the second bedroom.',
         bedrooms: 2,
         bathrooms: 2,
@@ -1005,7 +1004,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-15',
-        name: 'Bronze Bay 15 - 2 Bed',
+        name: '15 Bronze Bay - 2 Bed',
         description: "Welcome to your perfect seaside retreat! This beautifully appointed apartment offers more than just a place to stay - it's an experience. Breathtaking sea views greet you upon entry. The open-plan lounge, dining and kitchen features an air fryer, and the large balcony is accessible from both the lounge and main bedroom.",
         bedrooms: 2,
         bathrooms: 2,
@@ -1047,7 +1046,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-17',
-        name: 'Bronze Bay 17 - 2 Bed',
+        name: '17 Bronze Bay - 2 Bed',
         description: 'A lovely apartment at the popular Bronze Bay complex, situated right on the beach. Self-catering with 2 bedrooms and 2 bathrooms. The main bedroom features an extra-large king-size bed, TV, and en-suite shower. Second bedroom has twin beds with separate DSTV decoders in both the lounge and bedroom. Please note: fourth floor with no lift - accessible via stairs from road level.',
         bedrooms: 2,
         bathrooms: 2,
@@ -1081,7 +1080,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-19',
-        name: 'Bronze Bay 19 - 2 Bed',
+        name: '19 Bronze Bay - 2 Bed',
         description: 'This lovely apartment sleeps 4 people. The views are amazing from both the main bedroom and the lounge, which open onto a large balcony - perfect for wave-watching and braai evenings. Open-plan lounge, dining and kitchen. Guest shower/toilet; main bedroom en-suite; second bedroom with twin beds. Aircon, ceiling fans and DSTV included.',
         bedrooms: 2,
         bathrooms: 2,
@@ -1111,7 +1110,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-21',
-        name: 'Bronze Bay 21 - 1 Bed',
+        name: '21 Bronze Bay - 1 Bed',
         description: 'One of the very few beautiful one-bedroom apartments on the beachfront. A modern, air-conditioned unit with a large balcony and breathtaking sea views. En-suite bathroom with shower. Open-plan lounge, dining and kitchen with air fryer. Full DSTV included. Daily service except Sundays and public holidays. Inverter for power outages. Gated open-bay parking available.',
         bedrooms: 1,
         bathrooms: 1,
@@ -1141,7 +1140,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-24',
-        name: 'Bronze Bay 24 - 1 Bed',
+        name: '24 Bronze Bay - 1 Bed',
         description: 'Stunning, gorgeous 1-bedroom self-catering apartment right on the beachfront. Relax on the balcony enjoying the sights and sounds of the Indian Ocean. King-size bed with en-suite shower. Open-plan lounge and dining with a fully equipped kitchen featuring an air fryer. Aircon and free WiFi included. Inverter for power outages. Please note: DSTV equipment not provided.',
         bedrooms: 1,
         bathrooms: 1,
@@ -1189,7 +1188,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-25',
-        name: 'Bronze Bay 25 - 3 Bed',
+        name: '25 Bronze Bay - 3 Bed',
         description: 'A duplex apartment right on the beach with amazing views, situated on the 6th floor. Three bedrooms with both bathrooms on the entry level. First and second bedrooms open onto a side balcony with sea views and share a bath/toilet. The main bedroom offers amazing sea views with an open-plan en-suite. Upstairs features the kitchen, dining room and lounge with magnificent ocean views from a large balcony.',
         bedrooms: 3,
         bathrooms: 2,
@@ -1223,7 +1222,7 @@ export const complexes: Complex[] = [
       },
       {
         id: 'bronze-bay-26',
-        name: 'Bronze Bay 26 - 3 Bed',
+        name: '26 Bronze Bay - 3 Bed',
         description: 'This lovely 3-bedroom duplex has stunning views. Fully air-conditioned with gorgeous sea-views from the main bedroom featuring en-suite bath, shower and toilet. Second and third bedrooms open onto a grassed area and share a guest shower/toilet. Upstairs features open-plan kitchen, dining and lounge with amazing ocean vistas. A swimming pool with braai and sheltered area is accessible via spiral stairs from the balcony (shared facility).',
         bedrooms: 3,
         bathrooms: 2,
@@ -1295,7 +1294,7 @@ export const complexes: Complex[] = [
     location: 'Bronze Beach, Umhlanga',
     category: 'beachfront',
     featured: false,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/01/1-3.jpg',
+    coverImage: '/images/Bronze Beach.jpg',
     description:
       'Bronze Beach apartments offer a relaxed beachfront self-catering experience. Ideally positioned between the lagoon and the sea, with access to the scenic promenade and coastal forest walks.',
     highlights: [
@@ -1305,11 +1304,11 @@ export const complexes: Complex[] = [
       'Self Catering',
       '2 and 3 Bedroom Apartments',
     ],
-    complexAmenities: ['pool', 'undercover-parking', 'wifi', 'sea-views', 'balcony'],
+    complexAmenities: ['undercover-parking', 'wifi', 'sea-views', 'balcony'],
     units: [
       {
         id: 'bronze-beach-1',
-        name: 'Bronze Beach - 2 Bed',
+        name: '1 Bronze Beach - 2 Bed',
         description: 'This modern 2 bedroom 2 bathroom apartment is situated at beach level (ground floor) of Bronze Beach and has lovely sea views from the lounge and main bedroom. You can walk directly onto the grass from the apartment and through a security gate to the beach. The main bedroom has a queen-sized bed and an en-suite shower and bath, and opens directly onto the patio. The 2nd bedroom has two single beds with an en-suite shower and toilet. The open plan kitchen, dining room and lounge opens onto the patio with beautiful sea views.',
         bedrooms: 2,
         bathrooms: 2,
@@ -1320,7 +1319,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 3270 },
           { season: 'high',    label: 'High Season',   perNight: 4020 },
         ],
-        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'pool', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/01/1-3.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/01/2-4.jpg',
@@ -1355,7 +1354,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 3220 },
           { season: 'high',    label: 'High Season',   perNight: 3960 },
         ],
-        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'pool', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/1-2.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/2-2.jpg',
@@ -1396,7 +1395,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 3575 },
           { season: 'high',    label: 'High Season',   perNight: 4290 },
         ],
-        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'pool', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/09/1-1.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/09/2-1.jpg',
@@ -1436,7 +1435,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 3270 },
           { season: 'high',    label: 'High Season',   perNight: 4020 },
         ],
-        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'pool', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2022/07/20.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/09/1a-1.jpg',
@@ -1475,7 +1474,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 2400 },
           { season: 'high',    label: 'High Season',   perNight: 3000 },
         ],
-        amenities: ['balcony', 'bath', 'braai', 'dstv', 'pool', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['balcony', 'bath', 'braai', 'dstv', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/08/1-1.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/08/2-1.jpg',
@@ -1517,7 +1516,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 3400 },
           { season: 'high',    label: 'High Season',   perNight: 4150 },
         ],
-        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'pool', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2026/04/1new-1.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2026/04/2new-1.jpg',
@@ -2672,7 +2671,7 @@ export const complexes: Complex[] = [
     location: 'Umhlanga Beachfront',
     category: 'beachfront',
     featured: false,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/09/1.jpg',
+    coverImage: '/images/Glitter Bay.jpg',
     description:
       'Glitter Bay delivers on its name with glittering sea views and a coveted beachfront position. A favourite with repeat guests seeking the full Umhlanga experience.',
     highlights: [
@@ -2742,7 +2741,7 @@ export const complexes: Complex[] = [
     location: 'Umhlanga Rocks',
     category: 'beachfront',
     featured: false,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/02/1-1.jpg',
+    coverImage: '/images/Kyalanga.jpg',
     description:
       'Kyalanga offers peaceful, home-from-home self-catering accommodation in a tranquil Umhlanga setting. A short walk brings you to the beach, promenade, and village.',
     highlights: [
@@ -2887,7 +2886,7 @@ export const complexes: Complex[] = [
       'Near shops and restaurants',
       'Secure parking',
     ],
-    complexAmenities: ['undercover-parking', 'wifi', 'aircon', 'pool'],
+    complexAmenities: ['undercover-parking', 'wifi', 'aircon'],
     units: [
       {
         id: 'lighthouse-201',
@@ -3050,7 +3049,7 @@ export const complexes: Complex[] = [
     location: 'Umhlanga Rocks',
     category: 'village',
     featured: false,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2026/03/1-1.jpg',
+    coverImage: '/images/Oceans.jpeg',
     description:
       'Ocean Apartments offer contemporary, well-equipped self-catering accommodation in a prime Umhlanga position. Modern interiors, full amenities, and easy beach access.',
     highlights: [
@@ -3241,7 +3240,7 @@ export const complexes: Complex[] = [
     location: 'Lagoon Drive, Umhlanga',
     category: 'beachfront',
     featured: true,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2026/02/DSC_4784-Pano-5.jpg',
+    coverImage: '/images/Sea Lodge.jpg',
     description:
       'Sea Lodge is a beloved beachfront complex on Lagoon Drive, just 500m from Main Beach and Umhlanga Village. With seven individually styled units from cosy renovated retreats to spacious 7th-floor aeries with breathtaking sea views, there\'s a Sea Lodge apartment for every occasion.',
     highlights: [
@@ -3601,7 +3600,7 @@ export const complexes: Complex[] = [
     location: 'Umhlanga Rocks',
     category: 'beachfront',
     featured: false,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/1-4.jpg',
+    coverImage: '/images/Terra Mare.jpg',
     description:
       'Terra Mare - where earth meets sea - offers beautifully positioned self-catering apartments in Umhlanga. The complex name reflects its perfect balance of lush gardens and ocean proximity.',
     highlights: [
@@ -3667,7 +3666,7 @@ export const complexes: Complex[] = [
     location: '500m from Umhlanga Main Beach',
     category: 'village',
     featured: true,
-    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/11/1.jpg',
+    coverImage: '/images/Shades.jpg',
     description:
       'The Shades is a popular, well-established self-catering complex just 500m from Umhlanga\'s Main Beach and Village. With eight individually furnished units ranging from ground-floor garden apartments to sea-view retreats, The Shades offers excellent value and a genuine home-from-home experience.',
     highlights: [
