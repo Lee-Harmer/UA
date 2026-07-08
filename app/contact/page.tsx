@@ -16,7 +16,7 @@ export default function ContactPage() {
           <h1 className="display-xl" style={{ color: 'var(--white)', marginTop: '0.75rem', marginBottom: '1rem' }}>
             Get in Touch
           </h1>
-          <p className="body-lg" style={{ color: 'rgba(255,255,255,0.65)', maxWidth: '44ch' }}>
+          <p className="body-lg" style={{ color: 'rgba(255,255,255,0.65)', maxWidth: '44ch', margin: '0 auto' }}>
             Our team has decades of local knowledge and is always happy to help
             you find the perfect Umhlanga apartment.
           </p>
@@ -144,11 +144,11 @@ export default function ContactPage() {
                 />
               </div>
 
-              <div style={{ marginTop: '1.5rem', padding: '1.5rem', background: 'var(--sand)', borderRadius: '4px' }}>
-                <p style={{ font: '500 0.72rem/1 var(--font-body)', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '0.75rem' }}>
+              <div style={{ marginTop: '1.5rem', padding: '1.5rem', background: 'var(--ocean-deep)', borderRadius: '4px' }}>
+                <p style={{ font: '500 0.72rem/1 var(--font-body)', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--gold-light)', marginBottom: '0.75rem' }}>
                   Enquire About a Property
                 </p>
-                <p style={{ font: '400 0.9rem/1.6 var(--font-body)', color: 'var(--charcoal)', marginBottom: '1rem' }}>
+                <p style={{ font: '400 0.9rem/1.6 var(--font-body)', color: 'rgba(255,255,255,0.75)', marginBottom: '1rem' }}>
                   To enquire about a specific property, please call us directly or
                   use the individual property pages to book via Nightsbridge.
                 </p>

@@ -3111,7 +3111,7 @@ export const complexes: Complex[] = [
       'Prestigious Pearls development',
       'Panoramic sea views over Cabana',
       'Luxury finishes and appliances',
-      'Private pool and secure parking',
+      'Complex pool and secure parking',
       'Minimum stay requirements apply',
     ],
     complexAmenities: ['pool', 'undercover-parking', 'wifi', 'sea-views', 'aircon', 'dishwasher', 'inverter'],

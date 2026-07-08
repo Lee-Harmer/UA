@@ -121,13 +121,18 @@ export default async function UnitDetailPage({ params }: Props) {
 
               {/* Pricing */}
               <h2 className="prop-detail__section-title">Seasonal Rates</h2>
-              <div className="pricing-table" style={{ marginBottom: '2rem' }}>
+              <div className="pricing-table" style={{ marginBottom: '1rem' }}>
                 {unit.rates.map((rate) => (
                   <div key={rate.season} className={`pricing-table__cell pricing-table__cell--header pricing-table__cell--${rate.season}`}>
                     <span className="pricing-table__label">{rate.label}</span>
                     <span className="pricing-table__value">R{rate.perNight.toLocaleString()}</span>
                   </div>
                 ))}
+              </div>
+              <div style={{ marginBottom: '2rem' }}>
+                <Link href="/season-calendar" className="btn btn--outline" style={{ padding: '0.6rem 1.25rem', fontSize: '0.72rem' }}>
+                  View season dates &amp; minimum stays →
+                </Link>
               </div>
 
               {/* Fees */}

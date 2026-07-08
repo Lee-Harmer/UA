@@ -33,16 +33,21 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="container hero__content">
-        <span className="eyebrow hero__eyebrow">
-          Umhlanga Rocks, KwaZulu-Natal · Est. 1988
-        </span>
+        <Image
+          src="/logo.png"
+          alt="Umhlanga Accommodation - Penny Underwood"
+          width={360}
+          height={100}
+          className="hero__logo"
+          priority
+        />
 
         <h1 className="display-xl hero__headline">
-          <em>Umhlanga Accommodations</em><br />Holiday Rentals Since 1988
+          Holiday Rentals in<br /><em>Umhlanga Rocks</em>
         </h1>
 
         <p className="body-lg hero__sub">
-          Beachfront apartments on the KwaZulu-Natal coast, personally managed since 1988.
+          Apartments and villas on the KwaZulu-Natal coast, personally managed since 1988.
         </p>
 
         <div className="hero__ctas">
