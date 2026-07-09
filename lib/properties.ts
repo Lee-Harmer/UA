@@ -257,7 +257,7 @@ export const complexes: Complex[] = [
         ],
         amenities: ['aircon', 'balcony', 'bath', 'dstv', 'gym', 'hotel-facilities', 'inverter', 'iron', 'safe', 'shower', 'tv', 'undercover-parking', 'wifi'],
         description: "Stylish ground floor 2-bedroom apartment nestled in the lush landscaped gardens of Breakers Resort. Main bedroom has a queen bed; second bedroom has 2 singles. Open-plan lounge, dining and kitchen with air fryer. Serviced daily (excluding Sundays and Public Holidays). Enjoy a scenic 2.5km promenade walk from Breakers to Malindi.",
-        images: Array.from({ length: 13 }, (_, i) => `/images/units/breakers-128/${i + 1}.jpg`),
+        images: Array.from({ length: 14 }, (_, i) => `/images/units/breakers-128/${i + 1}.jpg`),
         mapUrl: 'https://maps.app.goo.gl/R2ZovV5mmX6BfMDG8?g_st=awb',
         nightsbridgeUrl: 'https://book.nightsbridge.com/23664?bbrtid=34',
         bookingFee: 600,
