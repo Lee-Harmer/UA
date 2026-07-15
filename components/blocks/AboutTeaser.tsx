@@ -21,7 +21,7 @@ export function AboutTeaser() {
                 holiday rental specialists. Our longest-serving team member has been with us
                 since day one - that kind of continuity creates genuine care for every guest.
               </p>
-              <Link href="/about" className="btn btn--ghost reveal" style={{ '--i': 3 } as React.CSSProperties}>
+              <Link href="/about" className="btn btn--ocean reveal" style={{ '--i': 3 } as React.CSSProperties}>
                 Read our story <ArrowRight size={14} />
               </Link>
             </div>

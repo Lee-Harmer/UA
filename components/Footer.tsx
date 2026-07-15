@@ -15,7 +15,7 @@ export function Footer() {
                 alt="Umhlanga Accommodation - Penny Underwood"
                 width={180}
                 height={50}
-                style={{ width: 'auto', height: '48px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: 'auto', height: '72px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
               />
             </Link>
             <p>
@@ -27,7 +27,7 @@ export function Footer() {
                 href="https://www.facebook.com/umhlangaaccommodation.co.za/"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: 'rgba(255,255,255,0.45)', fontSize: '0.8rem', letterSpacing: '0.08em', textTransform: 'uppercase' }}
+                style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.8rem', letterSpacing: '0.08em', textTransform: 'uppercase' }}
               >
                 Facebook
               </a>
@@ -55,6 +55,8 @@ export function Footer() {
               <li><Link href="/journal">Journal</Link></li>
               <li><Link href="/about">About Us</Link></li>
               <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/privacy">Privacy Policy</Link></li>
+              <li><Link href="/terms">Terms &amp; Conditions</Link></li>
             </ul>
           </div>
 
@@ -88,10 +90,21 @@ export function Footer() {
           <p className="site-footer__copy">
             © {new Date().getFullYear()} Umhlanga Accommodations. Est. 1988.
           </p>
-          <div className="site-footer__legal">
-            <Link href="/privacy">Privacy Policy</Link>
-            <Link href="/terms">Terms &amp; Conditions</Link>
-          </div>
+          <a
+            href="https://leechify.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="site-footer__siteby"
+          >
+            <span>Site by</span>
+            <Image
+              src="/leechify.png"
+              alt="Leechify"
+              width={120}
+              height={120}
+              style={{ width: '100px', height: '100px', objectFit: 'contain' }}
+            />
+          </a>
         </div>
       </div>
     </footer>

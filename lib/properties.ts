@@ -25,6 +25,7 @@ export interface Unit {
   notes?: string;
   bookingFee?: number;        // non-refundable, ZAR
   securityDeposit?: number;   // refundable, ZAR
+  promoCode?: { code: string; description: string };
 }
 
 export type ComplexCategory =
@@ -1774,6 +1775,10 @@ export const complexes: Complex[] = [
         mapUrl: 'https://maps.app.goo.gl/oQJ4jrgUvpvCnunW6?g_st=awb',
         nightsbridgeUrl: 'https://book.nightsbridge.com/23664?bbrtid=100',
         videoUrl: 'https://www.youtube.com/embed/k3tFehp29Oo',
+        promoCode: {
+          code: '10BB10OFF',
+          description: 'Use this promo code for a 10% reduction on low season rates',
+        },
       },
       {
         id: 'bronze-beach-14',
