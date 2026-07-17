@@ -253,7 +253,7 @@ function PropertiesContent() {
   }
 
   const sortedComplexes = [...filteredComplexes].sort(
-    (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0)
+    (a, b) => a.name.localeCompare(b.name)
   );
 
   // Show unit-level cards when price or guests filter active (so only matching units appear)

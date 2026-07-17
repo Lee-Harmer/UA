@@ -136,14 +136,14 @@ export default async function UnitDetailPage({ params }: Props) {
               </div>
 
               {unit.promoCode && (
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap', background: 'var(--sand)', border: '1px dashed var(--gold)', borderRadius: '4px', padding: '1rem 1.25rem', marginBottom: '2rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap', background: '#fff5f5', border: '1px dashed #c0392b', borderRadius: '4px', padding: '1rem 1.25rem', marginBottom: '2rem' }}>
                   <div>
                     <p style={{ font: '400 0.85rem/1.5 var(--font-body)', color: 'var(--charcoal)', margin: 0 }}>
                       {unit.promoCode.description}
                     </p>
                   </div>
-                  <div style={{ marginLeft: 'auto', flexShrink: 0, background: 'var(--white)', border: '1px solid var(--gold)', borderRadius: '3px', padding: '0.4rem 0.85rem' }}>
-                    <span style={{ font: '600 0.95rem/1 var(--font-body)', color: 'var(--gold)', letterSpacing: '0.08em' }}>{unit.promoCode.code}</span>
+                  <div style={{ marginLeft: 'auto', flexShrink: 0, background: '#c0392b', border: '1px solid #922b21', borderRadius: '3px', padding: '0.4rem 0.85rem' }}>
+                    <span style={{ font: '600 0.95rem/1 var(--font-body)', color: '#ffffff', letterSpacing: '0.08em' }}>{unit.promoCode.code}</span>
                   </div>
                 </div>
               )}
