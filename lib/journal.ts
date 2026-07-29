@@ -921,6 +921,173 @@ export const articles: JournalArticle[] = [
     ],
   },
 
+  {
+    slug: 'sardine-run-kzn',
+    title: "The Sardine Run: KwaZulu-Natal's Greatest Wildlife Spectacle",
+    category: 'Wildlife',
+    excerpt:
+      "Every June and July, billions of sardines surge up the KZN coastline in one of nature's most dramatic migrations. Here's what it is, why it happens, and how to see it from Umhlanga.",
+    coverImage:
+      'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/07/sardine-run.jpg',
+    publishedAt: '2026-07-10',
+    readingTime: 6,
+    body: [
+      {
+        type: 'p',
+        text: "It is billed as one of the greatest wildlife events on the planet, and for once the hype is justified. Every winter, billions of sardines migrate northward along the KwaZulu-Natal coast in a dense, churning mass that can stretch for kilometres. In their wake comes everything that eats them — Cape gannets diving from height, common dolphins herding the shoals, sharks cutting through from below, and humpback whales drawn in by the commotion. If you are staying in Umhlanga in July, you are right in the middle of it.",
+      },
+      {
+        type: 'h2',
+        text: 'Why Does It Happen?',
+      },
+      {
+        type: 'p',
+        text: "The sardines — technically South African pilchard — spawn in cold Agulhas Bank waters off the Eastern Cape each winter. When a cold current hugs the KZN coastline, it creates a corridor of suitable water temperature and the fish move north in vast numbers. The run typically begins around June and can continue into late July, though timing and intensity vary from year to year. Some years the cold current never quite reaches, and the run stays further out to sea. Other years it comes close enough to the shore that you can see the black mass of fish from the beach.",
+      },
+      {
+        type: 'h2',
+        text: 'What You Can See from Shore',
+      },
+      {
+        type: 'p',
+        text: "The most dramatic shore-based sightings happen when a bait ball forms close to the coast. Dolphins herd the sardines into a tight sphere near the surface, and then the gannets arrive — folding their wings and dropping from 20 metres or more in rapid succession, hitting the water like white darts. It is chaotic, loud, and over in minutes before the ball disperses and re-forms somewhere else. The Umhlanga promenade and the beach below the lighthouse both offer clear views north and south along the coast, and early morning is when activity tends to peak.",
+      },
+      {
+        type: 'tip',
+        label: 'What to bring',
+        text: "Binoculars make a significant difference for shore-based viewing. Look for the gannets first — their plunge-diving is visible from a long distance and will lead your eye straight to the action below.",
+      },
+      {
+        type: 'h2',
+        text: 'Getting in the Water',
+      },
+      {
+        type: 'p',
+        text: "For those who want to be in the middle of it, Aliwal Shoal — about 90 minutes south of Umhlanga near Scottburgh — is the most celebrated dive site for sardine run encounters. Dive operators on the South Coast run blacktip shark dives and open-water sardine run trips throughout the season. If you are a certified diver, this is one of the most extraordinary things you can do in South Africa. Boats go out early, conditions permitting, and the window of opportunity in any given spot can be brief — so having a flexible schedule helps.",
+      },
+      {
+        type: 'h2',
+        text: 'Snorkelling and Boat Trips',
+      },
+      {
+        type: 'p',
+        text: "You do not need to be a diver to get close. Several operators run snorkel charters during the sardine season, and these can be just as rewarding when a shoal is at depth and a bait ball pushes toward the surface. Boat trips from Durban Harbour also go out to track the migration and, while they are less guaranteed than a guided dive, they cover a lot of water and give you a good chance of witnessing something remarkable.",
+      },
+      {
+        type: 'h2',
+        text: 'July Timing at a Glance',
+      },
+      {
+        type: 'ul',
+        items: [
+          'The run is active from roughly mid-June to late July — peak action varies each year',
+          'Shore sightings are most likely early morning when light is flat and seas are calm',
+          'Dive and snorkel operators monitor conditions daily and will advise on whether to go out',
+          'Umhlanga sits in the middle of the migration corridor — no long drives needed for shore-based viewing',
+          'The whales that follow the sardines north add to the spectacle; binoculars will earn their keep',
+        ],
+      },
+      {
+        type: 'blockquote',
+        text: '"We watched from the promenade for about twenty minutes before the dolphins arrived and then the whole thing just erupted. Gannets everywhere. I have never seen anything like it and we live five minutes away."',
+      },
+      {
+        type: 'h2',
+        text: 'Plan Around It',
+      },
+      {
+        type: 'p',
+        text: "The sardine run is one of the few reasons to deliberately choose July for a KZN holiday over the more obvious summer months. Combine it with quieter beaches, lower accommodation rates, and Durban's famously mild winter — clear days in the low twenties, almost no rain, low humidity — and July becomes one of the most underrated months on the calendar. If you are planning a stay and want to maximise your chances of seeing the run, aim for mid-July and keep your mornings free.",
+      },
+    ],
+  },
+
+  {
+    slug: 'durban-july-umhlanga',
+    title: "The Durban July: South Africa's Greatest Day Out, Right on Your Doorstep",
+    category: 'Local Guide',
+    excerpt:
+      "The Durban July is one of Africa's premier horse racing events and the country's biggest fashion moment. If you are staying in Umhlanga, you are perfectly placed for it.",
+    coverImage:
+      'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/07/durban-july.jpg',
+    publishedAt: '2026-07-22',
+    readingTime: 5,
+    body: [
+      {
+        type: 'p',
+        text: "On the last Saturday of July every year, Greyville Racecourse in Durban hosts one of the most celebrated days on the South African social calendar. The Durban July has been run since 1897 and today draws tens of thousands of people — some there for the racing, most there for the fashion, all of them there for the occasion. If you are staying in Umhlanga, you are about 20 minutes from the gates and perfectly placed to make a day of it.",
+      },
+      {
+        type: 'h2',
+        text: 'What Actually Happens',
+      },
+      {
+        type: 'p',
+        text: "The headline race — the Hollywoodbets Durban July Handicap — is a 2200-metre Group 1 race that attracts the best horses in the country and significant prize money. But if you asked most attendees what they came for, the racing would not be the first thing they mention. The Durban July is as much a fashion event as a sporting one. The Best Dressed competitions are fiercely contested and the outfits — elaborate hats, statement looks, and considerable creativity — are half the entertainment before a horse has even reached the starting gates.",
+      },
+      {
+        type: 'h2',
+        text: 'The Fashion Element',
+      },
+      {
+        type: 'p',
+        text: "Each year has a theme, and attendees take it seriously. The Best Dressed Lady and Best Dressed Gentleman competitions draw real crowds and the winners receive meaningful prizes. You will see everything from extravagant couture to sharp interpretations of the theme, and the spectacle in the stands and enclosures is as worth watching as anything on the track. If you are planning to dress up — and you should — sort your outfit well in advance. Milliners in KZN book out weeks beforehand.",
+      },
+      {
+        type: 'tip',
+        label: 'Ticket types',
+        text: "Greyville has several enclosures at different price points. The Paddock and Grandstand areas give you good views of the horses and access to hospitality. Premium hospitality packages sell out early — book as soon as the race date is confirmed.",
+      },
+      {
+        type: 'h2',
+        text: 'Getting There from Umhlanga',
+      },
+      {
+        type: 'p',
+        text: "Greyville Racecourse is in central Durban, roughly 20 minutes from Umhlanga by car. On race day, traffic builds significantly in the hours before the main race, so leaving early is worth it. Rideshare and taxi services run throughout the day, which makes it easy to leave the car behind and enjoy the hospitality properly. Several Umhlanga hotels and apartments put on shuttle packages for the July — ask when you book.",
+      },
+      {
+        type: 'h2',
+        text: 'The Day Before and After',
+      },
+      {
+        type: 'p',
+        text: "The Durban July weekend has grown into more than a single day. The Friday before often has warm-up events and fashion previews, and the Sunday tends to be a quieter recovery day on the beach. If you are building a long weekend around the race, arriving Thursday or Friday gives you time to settle in, and staying through Sunday means you can decompress without rushing back on Saturday evening.",
+      },
+      {
+        type: 'h2',
+        text: 'Umhlanga After the Races',
+      },
+      {
+        type: 'p',
+        text: "Race day winds down in the late afternoon, and the Umhlanga restaurant strip picks up the evening from there. The beachfront and Village restaurants fill with people still in their finery, and the atmosphere on the last Saturday of July is unlike any other night in the Umhlanga calendar. Booking a table for dinner on race day is strongly advised — walk-ins are difficult.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Dress to the theme — it is worth the effort and the atmosphere rewards it',
+          'Book race tickets and hospitality early, especially for premium enclosures',
+          'Leave Umhlanga before 10am to beat the worst of the traffic',
+          'Consider a rideshare or shuttle to keep the day stress-free',
+          'Book dinner before you go — restaurants fill fast on race day evening',
+          'Build a long weekend around it — the Friday and Sunday are part of the occasion',
+        ],
+      },
+      {
+        type: 'blockquote',
+        text: '"We had never been racing in our lives and ended up going three years in a row. It is one of those days that just has an energy to it — everyone is dressed up, everyone is in a good mood, and the racing is genuinely exciting even if you have no idea what you are doing."',
+      },
+      {
+        type: 'h2',
+        text: 'Plan Your Stay Around It',
+      },
+      {
+        type: 'p',
+        text: "The Durban July is the kind of event that turns a winter weekend into a proper occasion. Umhlanga gives you the beach, the restaurants, and the easy access to Greyville — without being in the thick of the city. If you have been thinking about a July stay, this is a good reason to lock in dates around the last weekend of the month.",
+      },
+    ],
+  },
+
 ];
 
 export function getArticleBySlug(slug: string): JournalArticle | undefined {
