@@ -1088,6 +1088,77 @@ export const articles: JournalArticle[] = [
     ],
   },
 
+  {
+    slug: 'umhlanga-restaurants-guide',
+    title: "Where to Eat in Umhlanga: A Local's Guide to the Best Restaurants",
+    category: 'Local Guide',
+    excerpt: "From beachfront casual to proper fine dining, Umhlanga's restaurant scene punches well above its size. Here are the spots worth knowing about — and a few things to keep in mind before you go.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
+    publishedAt: '2026-08-13',
+    readingTime: 6,
+    body: [
+      {
+        type: 'p',
+        text: "Umhlanga has more good restaurants per square kilometre than most South African towns twice its size. The combination of a wealthy residential base, consistent tourist traffic, and proximity to Durban has created a dining scene with genuine range — you can eat fresh sushi, a wood-fired steak, a proper curry, or the kind of unhurried breakfast that sets a holiday up correctly, all within a fifteen-minute walk of the beach.",
+      },
+      {
+        type: 'h2',
+        text: 'The Village',
+      },
+      {
+        type: 'p',
+        text: "The heart of Umhlanga dining is the Village — a compact cluster of restaurants, cafés, and bars around Chartwell Drive and the streets running off it. Tables spill onto pavements, the atmosphere on a Friday or Saturday evening is genuinely lively, and the range of options means even a group with differing preferences will find something. The Village is walkable from most of our beachfront apartments and is where most guests spend the majority of their evenings.",
+      },
+      {
+        type: 'h2',
+        text: 'Gateway and Oceans',
+      },
+      {
+        type: 'p',
+        text: "For sheer volume of choice, Gateway Theatre of Shopping — ten minutes inland — has a large food court and a solid selection of sit-down restaurants around its perimeter. Oceans Mall, newer and smaller, sits closer to the beach and has a handful of well-regarded options. Both are useful on rainy days or when the Village is fully booked, though the atmosphere is predictably more mall-like.",
+      },
+      {
+        type: 'h2',
+        text: 'What Umhlanga Does Well',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Seafood — fresh linefish, prawns, and calamari are staples done well across most menus.',
+          'Breakfast and brunch — the café culture here is strong; expect proper coffee and long weekend menus.',
+          'Curry — the KZN coast has some of the best Indian food in the country, and Umhlanga is no exception.',
+          'Steaks — the red meat culture is alive and well; portions tend to be generous.',
+          'Sundowners — several spots have rooftop or elevated decks with ocean views that are hard to argue with.',
+        ],
+      },
+      {
+        type: 'tip',
+        label: 'Booking ahead',
+        text: "In December and over long weekends, the best restaurants book out days in advance. If you have somewhere specific in mind, call ahead — walk-in tables are difficult to come by in peak season.",
+      },
+      {
+        type: 'h2',
+        text: 'A Note on Price',
+      },
+      {
+        type: 'p',
+        text: "Umhlanga sits at the upper end of the KZN dining price spectrum, but not unreasonably so. A main course at a mid-range restaurant runs between R180 and R280; fine dining starts around R350. The good news is that quality is generally consistent — it is hard to have a genuinely bad meal here, which cannot be said of every tourist town.",
+      },
+      {
+        type: 'h2',
+        text: 'Self-Catering and the Local Shops',
+      },
+      {
+        type: 'p',
+        text: "All our apartments are fully self-catering, and the local Pick n Pay and Checkers both stock everything you need for cooking in — including a solid selection of local wines, fresh produce, and braai supplies. The fish shop on Chartwell Drive is worth knowing about for fresh catch bought directly. Many guests settle into a rhythm of cooking most evenings and eating out two or three times — which is a comfortable and cost-effective way to holiday.",
+      },
+      {
+        type: 'blockquote',
+        text: '"We ate out every night and never had a bad meal. The hardest part was choosing where to go."',
+      },
+    ],
+  },
+
 ];
 
 export function getArticleBySlug(slug: string): JournalArticle | undefined {

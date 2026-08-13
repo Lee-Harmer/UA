@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     icon: '/logo.png',
     apple: '/logo.png',
   },
+  verification: {
+    google: 'cWFunWvnyIjuwqWQCK3_aABlmXnbFQh_Q0FxpbUW5Z4',
+  },
   openGraph: {
     title: 'Umhlanga Accommodations - Holiday Rentals Since 1988',
     description: 'Premium self-catering holiday apartments in Umhlanga Rocks. Personal service since 1988.',
