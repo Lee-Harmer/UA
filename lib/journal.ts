@@ -1089,6 +1089,99 @@ export const articles: JournalArticle[] = [
   },
 
   {
+    slug: 'umhlanga-lagoon-nature-reserve',
+    title: "Umhlanga Lagoon Nature Reserve: The Hidden Walk Five Minutes from Your Apartment",
+    category: 'Local Guide',
+    excerpt:
+      "Most visitors walk past it without knowing it exists. The Umhlanga Lagoon Nature Reserve — a protected strip of indigenous coastal forest, wetland, and shoreline — is one of the most rewarding things you can do in winter, and almost nobody does it.",
+    coverImage:
+      'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
+    publishedAt: '2026-08-18',
+    readingTime: 5,
+    body: [
+      {
+        type: 'p',
+        text: "At the northern end of Umhlanga's beachfront, past the lighthouse and just beyond Bronze Beach, the coastal suburbia abruptly stops. What begins is one of the last intact fragments of indigenous coastal dune forest on the KwaZulu-Natal north coast — the Umhlanga Lagoon Nature Reserve. Managed by eThekwini Municipality, the reserve protects 26 hectares of forest, wetland, estuarine habitat, and open beach, and it sits roughly five minutes on foot from several of the apartments we manage. Most of our guests never go in.",
+      },
+      {
+        type: 'h2',
+        text: 'Why It Is Worth Your Time',
+      },
+      {
+        type: 'p',
+        text: "The reserve offers something the beach itself cannot: stillness. Inside the forest canopy, the sound of the ocean drops away and is replaced by birdsong, the creak of milkwood trees, and the occasional rustle of something moving through the undergrowth. The path system is not long — the full loop takes around 45 minutes at a relaxed pace — but it covers an unusual amount of ecological variety for such a small area: open beach, the sheltered lagoon mouth where the Ohlanga River meets the sea, dense coastal forest, and a boardwalk section through the wetland.",
+      },
+      {
+        type: 'h2',
+        text: 'Getting There',
+      },
+      {
+        type: 'p',
+        text: "Walk north from the Umhlanga lighthouse along the beach until the developed shoreline ends — it takes about ten minutes. The reserve entrance is clearly marked at the top of the beach access steps. Alternatively, drive to the Bronze Beach car park off Lagoon Drive and enter from the northern end, which drops you into the forest almost immediately. There is no entrance fee.",
+      },
+      {
+        type: 'h2',
+        text: 'The Walk',
+      },
+      {
+        type: 'p',
+        text: "The most rewarding route enters from the beach side and moves inland through the forest before looping back via the boardwalk and lagoon. The canopy here is dominated by white milkwood — the same species that lines much of the Umhlanga promenade — with wild banana, coastal podberry, and a dense understorey that feels genuinely tropical. The path is uneven in places but not difficult; comfortable walking shoes are fine.",
+      },
+      {
+        type: 'p',
+        text: "The boardwalk section crosses the wetland and gives you a close view of the Ohlanga River's final stretch before it reaches the sea. In August and September, with low rainfall and clear water, the lagoon mouth is a particularly good spot to stop. Kingfishers work the edges. Grey herons stand in the shallows with the patience of people who have nowhere else to be.",
+      },
+      {
+        type: 'tip',
+        label: 'Best time to go',
+        text: "Early morning in winter gives you the clearest light, the most active birdlife, and the best chance of having the forest almost entirely to yourself. The path can be slippery after rain — the dry winter months are the easiest conditions.",
+      },
+      {
+        type: 'h2',
+        text: 'The Birdlife',
+      },
+      {
+        type: 'p',
+        text: "The reserve's bird list is substantial for its size. Permanent residents include the purple-crested turaco — a spectacularly coloured bird that moves through the canopy like a rumour, heard more often than seen. Narina trogons have been recorded here. Mangrove kingfishers work the estuary edge. And along the beach section, terns and waders are reliably present in winter. If you are a birder, bring a field guide; if you are not, the reserve will give you a good reason to become one.",
+      },
+      {
+        type: 'h2',
+        text: 'Why August Is the Right Month',
+      },
+      {
+        type: 'p',
+        text: "The reserve is rewarding year-round, but August hits a particular sweet spot. The summer humidity is months away. The rain is minimal. The bush is dry-season clear — visibility through the forest is at its best, which makes spotting birds considerably easier. And the light on a clear August morning in KwaZulu-Natal is extraordinary: hard-edged and golden, the kind of light photographers come to Africa for. The path exits back onto the beach near the lighthouse, which, on a winter morning with a flat sea, is one of the better views in the country.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'No entrance fee — the reserve is open to the public during daylight hours.',
+          'Bring water and binoculars; a field guide is optional but rewarding.',
+          'The path is suitable for confident walkers; not ideal for pushchairs on the forest section.',
+          'Keep to the marked paths — the dune vegetation is fragile and the forest is protected.',
+          'Dogs are not permitted in the reserve.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Back to the Beach',
+      },
+      {
+        type: 'p',
+        text: "The loop brings you out near the lagoon mouth at Bronze Beach — one of the best spots on the entire Umhlanga coastline for a quiet swim when conditions are calm. In winter the water is cooler than summer but still swimmable for those willing, and the lagoon itself is sheltered and popular with younger children who prefer a gentler current. Several of our Bronze Beach apartments are directly across the road from this point, which makes the whole circuit — apartment to forest to lagoon to sea — a genuinely excellent way to spend a winter morning.",
+      },
+      {
+        type: 'blockquote',
+        text: '"We walked in expecting five minutes and stayed for nearly an hour. A turaco flew over us about twenty metres up and we both just stopped. You forget this kind of thing exists two minutes from the beach."',
+      },
+      {
+        type: 'p',
+        text: "Umhlanga is easy to enjoy without ever leaving the promenade. But the Lagoon Nature Reserve is a reminder that the best things here are often the quieter ones — and that the walk worth taking is sometimes the one most people miss.",
+      },
+    ],
+  },
+
+  {
     slug: 'umhlanga-restaurants-guide',
     title: "Where to Eat in Umhlanga: A Local's Guide to the Best Restaurants",
     category: 'Local Guide',
