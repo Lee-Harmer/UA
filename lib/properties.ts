@@ -1321,7 +1321,7 @@ export const complexes: Complex[] = [
         description: 'This modern 2 bedroom 2 bathroom apartment is situated at beach level (ground floor) of Bronze Beach and has lovely sea views from the lounge and main bedroom. You can walk directly onto the grass from the apartment and through a security gate to the beach. The main bedroom has a queen-sized bed and an en-suite shower and bath, and opens directly onto the patio. The 2nd bedroom has two single beds with an en-suite shower and toilet. The open plan kitchen, dining room and lounge opens onto the patio with beautiful sea views.',
         bedrooms: 2,
         bathrooms: 2,
-        sleeps: 5,
+        sleeps: 4,
         rates: [
           { season: 'low',     label: 'Low Season',    perNight: 1950 },
           { season: 'mid',     label: 'Mid Season',    perNight: 2530 },
