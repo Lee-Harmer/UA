@@ -1252,6 +1252,166 @@ export const articles: JournalArticle[] = [
     ],
   },
 
+  // ── SEPTEMBER ──────────────────────────────────────────────────────────────
+
+  {
+    slug: 'spring-in-umhlanga',
+    title: "Spring in Umhlanga: Why September Is the Season Worth Booking",
+    category: 'Travel',
+    excerpt: "The whales are heading south with calves, the jacarandas are in bloom inland, and the beach is warming up again — without the December crowds. September is quietly one of Umhlanga's best months.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
+    publishedAt: '2026-09-05',
+    readingTime: 5,
+    body: [
+      {
+        type: 'p',
+        text: "There is a particular quality to Umhlanga in September that is difficult to pin down and easy to miss if you only ever come in December. The town is emerging from its quietest months. The sea temperature is climbing back toward its summer peak. The days are lengthening noticeably. And the beach — still uncrowded, still easy to park near — is beginning to feel like the reason people move to the north coast in the first place.",
+      },
+      {
+        type: 'h2',
+        text: 'The Weather in September',
+      },
+      {
+        type: 'p',
+        text: "September sits at the hinge point of the KwaZulu-Natal year. Winter is done — the cool, dry conditions of July and August give way to warmer days and the first hints of the summer humidity that arrives properly in November. Daytime temperatures typically reach 24–27 °C, with overnight lows still comfortable in the low twenties. The sea, which bottoms out around 20 °C in August, starts climbing again — swimmable for most people by mid-September, and genuinely warm by month's end.",
+      },
+      {
+        type: 'p',
+        text: "You may get the first spring thunderstorms in the second half of the month — short, intense afternoon bursts that clear quickly and leave the air feeling clean and salt-sharp. They are nothing like the sustained summer rainfall that sometimes pins you indoors in January. In September, weather is almost entirely on your side.",
+      },
+      {
+        type: 'h2',
+        text: 'The Whales Are Still Here',
+      },
+      {
+        type: 'p',
+        text: "September sits in the second half of the humpback migration — the southward return. This is when mothers travel back toward Antarctica with calves born during the winter breeding season, and these pairs are reliably closer to shore and more visible than the northward-migrating adults of earlier in the season. The calves are curious and active at the surface, and watching one roll and spy-hop alongside its mother from the Umhlanga promenade is one of those experiences that stays with people.",
+      },
+      {
+        type: 'tip',
+        label: 'Whale watching in September',
+        text: "The lighthouse headland and Bronze Beach are the best shore-based viewing points. Go early morning for calm conditions and the best light. Binoculars are worth carrying — mothers with calves are often moving slowly and can be watched for extended periods.",
+      },
+      {
+        type: 'h2',
+        text: 'The Beach Without the Crowds',
+      },
+      {
+        type: 'p',
+        text: "This is the point most people underestimate. The school-holiday season begins in earnest in December, and the gap between when the weather gets good (September) and when the crowds arrive is a window that regular visitors guard carefully. Main Beach in September is not empty — it is used, and it is lively — but you will not be negotiating your way through packed umbrellas. Parking is straightforward. The promenade at 5 pm has room to breathe. The restaurants are excellent and bookable.",
+      },
+      {
+        type: 'h2',
+        text: 'Rates and Availability',
+      },
+      {
+        type: 'p',
+        text: "September sits in the shoulder season for most of our properties — not the rock-bottom rates of July, but meaningfully lower than the December peak. It is also one of the more available months for the larger apartments that are snapped up immediately for school holidays. If you have had your eye on a three-bedroom sea-facing unit and could not secure it for Christmas, September is the month to try.",
+      },
+      {
+        type: 'h2',
+        text: 'What to Do',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Morning whale watching from the promenade — mothers with calves are most active in September.',
+          'Long beach walks in the warming spring sun, without the summer heat.',
+          'A day trip to the Midlands Meander — the spring wildflowers in the KZN midlands are excellent in September.',
+          'Dinner at restaurants you could not book in January — tables are available, staff are attentive.',
+          'An early evening braai on the balcony as the days lengthen and the temperature holds.',
+        ],
+      },
+      {
+        type: 'blockquote',
+        text: '"We came in September on a friend\'s recommendation and have not booked December since. The beach, the weather, the whales — it has everything, and you can actually enjoy it."',
+      },
+      {
+        type: 'p',
+        text: "September is the season that rewards the guests who look past the school-holiday calendar. The same coastline, the same restaurants, the same warm Indian Ocean — with the added bonus of a whale or two off the point, and the whole town still quietly to yourself.",
+      },
+    ],
+  },
+
+  {
+    slug: 'heritage-day-umhlanga',
+    title: "Heritage Day in Umhlanga: South Africa's Greatest Braai, Right on the Coast",
+    category: 'Local Guide',
+    excerpt: "The 24th of September is Heritage Day — known to most South Africans simply as National Braai Day. Here is how to celebrate it properly in Umhlanga, with the ocean in front of you and a fire going.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/09/1a-1.jpg',
+    publishedAt: '2026-09-15',
+    readingTime: 5,
+    body: [
+      {
+        type: 'p',
+        text: "On the 24th of September every year, South Africa celebrates Heritage Day — a public holiday officially dedicated to the country's cultural diversity. In practice, most South Africans celebrate it the same way: by lighting a fire, cooking meat, and spending the day with people they like. The braai has become the unofficial national symbol, and for one afternoon a year the whole country smells of woodsmoke and the good sense of not having anywhere else to be.",
+      },
+      {
+        type: 'h2',
+        text: 'Why Umhlanga Is an Excellent Place to Braai',
+      },
+      {
+        type: 'p',
+        text: "Umhlanga in late September is about as good as braai weather gets. The days are warm without the summer humidity — typically 25–28 °C by afternoon — and the sea breeze that picks up from around 4 pm keeps things comfortable without being cold. Almost all our apartments have braai facilities, whether a built-in Weber on the balcony, a communal braai area in the complex, or a proper hardwood setup with a cast-iron grid. The combination of a sea view, a fire, and a Heritage Day afternoon is difficult to improve on.",
+      },
+      {
+        type: 'h2',
+        text: 'What to Cook',
+      },
+      {
+        type: 'p',
+        text: "The traditional Heritage Day braai is democratic — boerewors, chops, and chicken on the fire, with pap or potato salad and chakalaka on the side. But Umhlanga adds a coastal dimension worth taking advantage of. The fish shops on Chartwell Drive do fresh linefish and prawns throughout the week; Heritage Day sees them busy, so go the morning before to get the pick of the catch. Whole yellowtail on the fire, basted simply with lemon and garlic, is a different experience to the Highveld braai — and a better one, most years.",
+      },
+      {
+        type: 'tip',
+        label: 'Braai supply tip',
+        text: "Pick up charcoal or hardwood the day before Heritage Day — the Chartwell Centre Pick n Pay and the local hardware stores stock up but can run low by the afternoon of the 23rd. Hardwood (rather than charcoal briquettes) gives better heat and flavour for fish.",
+      },
+      {
+        type: 'h2',
+        text: 'Heritage Day on the Beach',
+      },
+      {
+        type: 'p',
+        text: "The beach itself takes on a particular atmosphere on Heritage Day. Families set up from early morning with portable braais and umbrellas, children run between the waves and the food, and the promenade develops an easy, convivial energy that is hard to manufacture any other time of year. It is one of those days when Umhlanga feels less like a holiday destination and more like a community — everyone outside, everyone fed, everyone content.",
+      },
+      {
+        type: 'p',
+        text: "Note that open fires are not permitted on the beach itself, but the grassed areas along the promenade and the braai facilities in apartment complexes are well-used on the day. The beach is for the afternoon swim.",
+      },
+      {
+        type: 'h2',
+        text: 'What the Restaurants Are Doing',
+      },
+      {
+        type: 'p',
+        text: "Several of the Umhlanga Village restaurants run Heritage Day specials — themed menus, outdoor setups, and braai-specific offerings that make eating out on the day genuinely worth considering if you want to leave the fire-lighting to someone else. Ile Maurice typically has a seafood focus; the more casual spots along the Village strip do a brisk trade in braai plates and local craft beer. If you plan to eat out, book ahead — Heritage Day is a busy dining day and walk-ins are difficult.",
+      },
+      {
+        type: 'h2',
+        text: 'The Day After',
+      },
+      {
+        type: 'p',
+        text: "Heritage Day falls on a Wednesday in 2026, which makes it a useful anchor for a midweek break. The surrounding days — Monday and Tuesday arriving, Thursday and Friday departing — are some of the most affordable nights of the spring calendar, and the beach mid-week has a weekday calm that the weekend cannot match. A three- or four-night stay built around the 24th is one of the quieter, more affordable ways to get a spring week in Umhlanga.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Buy fresh fish and prawns from Chartwell Drive on the 23rd — shops are busy on the day.',
+          'Stock up on braai supplies the day before — charcoal and hardwood sell out.',
+          'Book restaurants in advance if you prefer to eat out — Heritage Day fills the Village.',
+          'The beach is best in the early afternoon; morning is for the fire.',
+          'A braai on the balcony with a sea view is one of the better Heritage Day options in the country.',
+        ],
+      },
+      {
+        type: 'blockquote',
+        text: '"We came for Heritage Day three years ago — just a long weekend — and ended up staying a full week because we didn\'t want to leave. The apartment had a balcony braai facing the sea. It was the most South African thing we have ever done."',
+      },
+    ],
+  },
+
 ];
 
 export function getArticleBySlug(slug: string): JournalArticle | undefined {

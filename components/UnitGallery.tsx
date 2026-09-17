@@ -209,27 +209,21 @@ export function UnitGallery({ images, name }: UnitGalleryProps) {
               sizes="90vw"
               priority
             />
-            {/* Preload prev and next images so navigation feels instant */}
-            {lightboxIndex > 0 && (
-              <Image
-                src={images[lightboxIndex - 1]}
-                alt=""
-                fill
-                sizes="90vw"
-                style={{ objectFit: 'contain', opacity: 0, pointerEvents: 'none', position: 'absolute' }}
-                aria-hidden
-              />
-            )}
-            {lightboxIndex < images.length - 1 && (
-              <Image
-                src={images[lightboxIndex + 1]}
-                alt=""
-                fill
-                sizes="90vw"
-                style={{ objectFit: 'contain', opacity: 0, pointerEvents: 'none', position: 'absolute' }}
-                aria-hidden
-              />
-            )}
+            {/* Preload prev/next images so navigation feels instant */}
+            {[lightboxIndex - 1, lightboxIndex + 1, lightboxIndex + 2].map((idx) => {
+              if (idx < 0 || idx >= images.length) return null;
+              return (
+                <Image
+                  key={idx}
+                  src={images[idx]}
+                  alt=""
+                  fill
+                  sizes="90vw"
+                  style={{ objectFit: 'contain', opacity: 0, pointerEvents: 'none', position: 'absolute' }}
+                  aria-hidden
+                />
+              );
+            })}
           </div>
 
           <button
