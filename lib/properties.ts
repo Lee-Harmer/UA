@@ -2074,10 +2074,10 @@ export const complexes: Complex[] = [
         bathrooms: 4,
         sleeps: 8,
         rates: [
-          { season: 'low',     label: 'Low Season',    perNight: 3100 },
-          { season: 'mid',     label: 'Mid Season',    perNight: 4350 },
-          { season: 'midplus', label: 'Mid+ Season',   perNight: 5000 },
-          { season: 'high',    label: 'High Season',   perNight: 6600 },
+          { season: 'low',     label: 'Low Season',    perNight: 4000 },
+          { season: 'mid',     label: 'Mid Season',    perNight: 4900 },
+          { season: 'midplus', label: 'Mid+ Season',   perNight: 5500 },
+          { season: 'high',    label: 'High Season',   perNight: 7000 },
         ],
         amenities: ['aircon', 'balcony', 'bath', 'braai', 'dishwasher', 'dstv', 'inverter', 'iron', 'pool', 'safe', 'sea-views', 'shower', 'tumble-dryer', 'tv', 'undercover-parking', 'washing-machine', 'wifi'],
         images: [
