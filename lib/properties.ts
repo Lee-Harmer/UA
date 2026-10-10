@@ -1003,7 +1003,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 3270 },
           { season: 'high',    label: 'High Season',   perNight: 4020 },
         ],
-        amenities: ['aircon', 'balcony', 'braai', 'dstv', 'inverter', 'iron', 'safe', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['aircon', 'balcony', 'braai', 'coffee-machine', 'dstv', 'inverter', 'iron', 'safe', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/07/DSC_0509.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2025/07/DSC_0512.jpg',
@@ -1770,7 +1770,7 @@ export const complexes: Complex[] = [
       {
         id: 'bronze-beach-14',
         name: '14 Bronze Beach',
-        description: 'This modern air-conditioned apartment has it all. The main bedroom, along with the open plan kitchen, dining room and lounge, leads onto the large balcony - the perfect place to sit and watch the world go by. Have your early morning coffee, watch the sun rise, or enjoy a sundowner with the Indian Ocean stretching out before you.',
+        description: 'This modern air-conditioned apartment has it all. The main bedroom, along with the open plan kitchen, dining room and lounge, leads onto the large balcony - the perfect place to sit and watch the world go by. Have your early morning coffee, watch the sun rise, or enjoy a sundowner with the Indian Ocean stretching out before you. The en-suite main bathroom features a bath, and the second bathroom has a shower.',
         bedrooms: 2,
         bathrooms: 2,
         sleeps: 4,

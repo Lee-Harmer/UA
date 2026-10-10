@@ -1,14 +1,14 @@
 import {
   Wind, LayoutPanelTop, Bath, Flame, Tv2, Waves, Zap, Shirt,
   Droplets, Lock, Binoculars, ShowerHead, RefreshCw, Monitor,
-  Car, WashingMachine, Wifi, Dumbbell, Building2, ParkingSquare,
+  Car, WashingMachine, Wifi, Dumbbell, Building2, ParkingSquare, Coffee,
 } from 'lucide-react';
 import { AmenityKey, AMENITIES } from '@/lib/amenities';
 
 const ICON_MAP: Record<string, React.ComponentType<{ size?: number; strokeWidth?: number }>> = {
   Wind, LayoutPanelTop, Bath, Flame, Tv2, Waves, Zap, Shirt,
   Droplets, Lock, Binoculars, ShowerHead, RefreshCw, Monitor,
-  Car, WashingMachine, Wifi, Dumbbell, Building2, ParkingSquare,
+  Car, WashingMachine, Wifi, Dumbbell, Building2, ParkingSquare, Coffee,
 };
 
 interface AmenityIconProps {

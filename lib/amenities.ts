@@ -18,7 +18,8 @@ export type AmenityKey =
   | 'tv'
   | 'undercover-parking'
   | 'washing-machine'
-  | 'wifi';
+  | 'wifi'
+  | 'coffee-machine';
 
 export interface AmenityDef {
   label: string;
@@ -46,4 +47,5 @@ export const AMENITIES: Record<AmenityKey, AmenityDef> = {
   'undercover-parking':{ label: 'Parking',            icon: 'Car' },
   'washing-machine':   { label: 'Washing Machine',    icon: 'WashingMachine' },
   'wifi':              { label: 'Free WiFi',          icon: 'Wifi' },
+  'coffee-machine':    { label: 'Coffee Bean Machine', icon: 'Coffee' },
 };
