@@ -1252,6 +1252,100 @@ export const articles: JournalArticle[] = [
     ],
   },
 
+  // ── OCTOBER ────────────────────────────────────────────────────────────────
+
+  {
+    slug: 'october-in-umhlanga',
+    title: "October in Umhlanga: The Last Good Month Before Everyone Else Arrives",
+    category: 'Travel',
+    excerpt: "The sea is warm, the sun is reliable, and the December crowds are still six weeks away. October is the month that regular visitors keep to themselves — and for good reason.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
+    publishedAt: '2026-10-13',
+    readingTime: 6,
+    body: [
+      {
+        type: 'p',
+        text: "There is a category of Umhlanga guest that nobody talks about publicly but everyone notices: the people who come back in October, every year, without exception. They are not telling anyone about it. They book early, they take the same apartment they always take, and they spend a week experiencing Umhlanga at what many regulars consider its actual best — warm, uncrowded, and fully operational. This is that month.",
+      },
+      {
+        type: 'h2',
+        text: 'The Weather Gets It Right',
+      },
+      {
+        type: 'p',
+        text: "October sits at the point in the KwaZulu-Natal year where the spring warmth has accumulated into something genuinely summery without yet tipping into the heavy humidity that characterises December and January. Daytime temperatures typically run between 26 and 30 °C. The sea, which climbs steadily through September, hits around 22–24 °C by mid-October — warm enough for long afternoon swims and comfortable enough for children who object to any water that requires courage. The afternoon thunderstorms that arrive toward the end of the month are short and theatrical rather than the sustained downpours of high summer.",
+      },
+      {
+        type: 'h2',
+        text: 'The Ocean Is Ready',
+      },
+      {
+        type: 'p',
+        text: "October is when the Indian Ocean off Umhlanga becomes genuinely inviting. The transition from the cooler winter water is complete. The waves on Main Beach settle into the gentle, consistent swell that makes it one of the better family swimming beaches on the coast — nothing punishing, nothing underwhelming. The rocky headland around the lighthouse, which rewards snorkellers in calm conditions, is at its most accessible now: the winter swells are gone, the visibility is improving ahead of the full summer clarity, and the fish life that clusters around the rocks is active and worth seeing.",
+      },
+      {
+        type: 'tip',
+        label: 'Snorkelling note',
+        text: "The rocks immediately north of the Umhlanga lighthouse are the best snorkelling spot on this stretch of coast. Go at high tide on a calm morning — October delivers both more reliably than any other spring month. Bring a mask and fins; there is nothing to buy on the beach.",
+      },
+      {
+        type: 'h2',
+        text: 'The Whales Have Not Quite Gone',
+      },
+      {
+        type: 'p',
+        text: "The main humpback migration is largely complete by October, but the tail of the southward run — mothers with late-season calves moving back toward Antarctica — can produce sightings well into the month. October whale sightings are less reliable than August or September, but more common than most visitors expect. A calm morning on the promenade with binoculars is still worth the effort. When they come, late-season sightings tend to be close to shore and unhurried — the urgency of the migration is over, and the mothers and calves move with a different quality of attention.",
+      },
+      {
+        type: 'h2',
+        text: 'Six Weeks Before It Changes',
+      },
+      {
+        type: 'p',
+        text: "The school holidays begin in earnest in the second week of December. Rates go up, availability drops, and the beach goes from pleasantly busy to properly crowded. In October, you are six weeks ahead of that. The apartments that are fully booked from the 10th of December onward are available. The restaurants that require advance booking in high season are taking same-day reservations. The parking on Lagoon Drive is not a problem. This is not a minor advantage — it is the whole point of coming in October.",
+      },
+      {
+        type: 'h2',
+        text: 'What October Does Better Than December',
+      },
+      {
+        type: 'ul',
+        items: [
+          'The beach without the umbrella negotiation — you choose where you sit.',
+          'Restaurants at their attentive best — fully staffed, unhurried, bookable on the night.',
+          'Parking within two minutes of the beach, on any day of the week.',
+          'The promenade at 5 pm as a walk rather than a crowd-management exercise.',
+          'Sea temperatures warm enough for a full afternoon swim without the summer humidity overhead.',
+          'Shoulder-season rates on properties that cost significantly more in six weeks.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'A Word on the Light',
+      },
+      {
+        type: 'p',
+        text: "October light on the KwaZulu-Natal coast has a quality that is difficult to describe and easy to remember. The sun is already high and strong, but the atmosphere is cleaner than in summer — lower humidity means the distances are sharp and the colours are saturated. The lighthouse at 6 pm. The lagoon at Bronze Beach in the late afternoon. The sea from a high-floor balcony on a clear morning. These are things worth building a trip around.",
+      },
+      {
+        type: 'h2',
+        text: 'Choosing the Right Apartment',
+      },
+      {
+        type: 'p',
+        text: "October is one of the best months to secure a property you might not be able to get in December. The larger sea-facing apartments — those with full ocean views, private braai balconies, and multiple bedrooms — are available and well-priced. If you have a group of six or eight who want to share something special rather than book separate rooms in a hotel, this is the window. Our Bronze Beach units, the upper floors at Sea Lodge, and the larger Shades apartments all become genuinely accessible in October in a way they simply are not from mid-December onward.",
+      },
+      {
+        type: 'blockquote',
+        text: '"We discovered October by accident — a December booking fell through and we had to shift. Three years later we have not gone back to December. The town is quieter, the sea is warm, and we always get the apartment we want."',
+      },
+      {
+        type: 'p',
+        text: "The people who know about October are not going to start talking about it now. But if you have been trying to find a version of Umhlanga that feels like what people say it is — warm, relaxed, beautiful, and genuinely easy — this is the month. It will not stay a secret forever.",
+      },
+    ],
+  },
+
   // ── SEPTEMBER ──────────────────────────────────────────────────────────────
 
   {
