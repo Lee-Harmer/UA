@@ -21,7 +21,7 @@ export default function ThingsToDoPage() {
             Things To Do
           </h1>
           <p className="body-lg" style={{ color: 'rgba(255,255,255,0.65)', maxWidth: '48ch' }}>
-            From Blue Flag beaches and coastal nature reserves to world-class golf,
+            From pristine beaches and coastal nature reserves to world-class golf,
             whale watching, and Big Five day trips - Umhlanga is a destination in itself.
           </p>
           {/* Category jump links */}

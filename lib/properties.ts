@@ -736,7 +736,7 @@ export const complexes: Complex[] = [
           { season: 'midplus', label: 'Mid+ Season',   perNight: 2700 },
           { season: 'high',    label: 'High Season',   perNight: 3500 },
         ],
-        amenities: ['aircon', 'balcony', 'bath', 'braai', 'dstv', 'inverter', 'iron', 'open-parking', 'safe', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
+        amenities: ['balcony', 'bath', 'braai', 'dstv', 'inverter', 'iron', 'open-parking', 'safe', 'sea-views', 'shower', 'tv', 'undercover-parking', 'wifi'],
         images: [
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/19c-1.jpg',
           'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2024/12/1-1.jpg',

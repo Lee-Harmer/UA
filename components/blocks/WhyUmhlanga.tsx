@@ -2,7 +2,7 @@ const reasons = [
   {
     numeral: 'I',
     title: 'The Beach',
-    body: "Umhlanga's Blue Flag beach is one of South Africa's finest - warm Indian Ocean waters, a 3 km promenade, and the iconic red-and-white lighthouse.",
+    body: "Umhlanga's beach is one of South Africa's finest - warm Indian Ocean waters, a 3 km promenade, and the iconic red-and-white lighthouse.",
   },
   {
     numeral: 'II',
