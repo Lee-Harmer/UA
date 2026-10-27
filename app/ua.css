@@ -2877,7 +2877,225 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ============================================================
-   26. RESPONSIVE
+   26. SPECIALS PAGE
+   ============================================================ */
+
+/* Hero */
+.specials-page__hero {
+  background:
+    linear-gradient(160deg, oklch(13% 0.06 265 / 0.82) 0%, oklch(13% 0.06 265 / 0.62) 50%, oklch(13% 0.06 265 / 0.86) 100%),
+    url('/images/hero/umhlanga-beach1.jpg') center 30% / cover no-repeat;
+  padding-top: calc(var(--section-v) + 4rem);
+  padding-bottom: var(--section-v);
+  color: var(--white);
+}
+
+/* How it works */
+.specials-page__how {
+  background: var(--warm-white);
+}
+
+.specials-page__steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.specials-page__step {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background: var(--white);
+  border-radius: 4px;
+  box-shadow: 0 2px 16px rgba(15,30,50,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.specials-page__step-num {
+  font: 400 2.5rem/1 var(--font-display);
+  color: var(--ocean);
+  opacity: 0.35;
+  letter-spacing: -0.02em;
+}
+
+.specials-page__step-heading {
+  font: 600 1.1rem/1.2 var(--font-display);
+  color: var(--ocean-deep);
+  letter-spacing: -0.005em;
+}
+
+.specials-page__step-body {
+  font: 400 0.88rem/1.7 var(--font-body);
+  color: var(--mid-grey);
+  max-width: 28ch;
+}
+
+/* Specials cards grid */
+.specials-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.special-card {
+  background: var(--white);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 20px rgba(15,30,50,0.07);
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid var(--ocean);
+  transition: box-shadow var(--dur-mid) var(--ease-expo), transform var(--dur-mid) var(--ease-expo);
+}
+
+.special-card:hover {
+  box-shadow: 0 10px 40px rgba(15,30,50,0.13);
+  transform: translateY(-4px);
+}
+
+/* Image */
+.special-card__img-wrap {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.special-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.7s var(--ease-expo);
+}
+
+.special-card:hover .special-card__img {
+  transform: scale(1.05);
+}
+
+/* Saving badge */
+.special-card__saving {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: 700 0.72rem/1 var(--font-body);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--ocean-deep);
+  padding: 0.55em 0.85em;
+  border-radius: 3px;
+}
+
+/* Card body */
+.special-card__body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  flex: 1;
+}
+
+.special-card__tag {
+  font: 500 0.62rem/1 var(--font-body);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ocean);
+}
+
+.special-card__title {
+  font: 400 1.5rem/1.2 var(--font-display);
+  color: var(--ocean-deep);
+  letter-spacing: -0.01em;
+}
+
+.special-card__desc {
+  font: 400 0.9rem/1.75 var(--font-body);
+  color: var(--charcoal);
+}
+
+/* Conditions list */
+.special-card__conditions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-top: 0.25rem;
+}
+
+.special-card__condition {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font: 400 0.82rem/1.55 var(--font-body);
+  color: var(--mid-grey);
+}
+
+.special-card__condition svg {
+  flex-shrink: 0;
+  color: var(--ocean);
+  margin-top: 0.1rem;
+}
+
+.special-card__valid {
+  font: 400 0.8rem/1 var(--font-body);
+  color: var(--mid-grey);
+  padding: 0.65rem 0.85rem;
+  background: var(--sand);
+  border-radius: 3px;
+  border: 1px solid var(--sand-dark);
+}
+
+.special-card__valid strong {
+  color: var(--ocean-deep);
+  font-weight: 600;
+}
+
+.special-card__cta {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: flex-start;
+}
+
+/* Coming soon */
+.specials-page__coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding: clamp(3rem, 8vw, 6rem) 2rem;
+  background: var(--white);
+  border-radius: 4px;
+  box-shadow: 0 2px 20px rgba(15,30,50,0.06);
+  border-top: 3px solid var(--ocean);
+  max-width: 48rem;
+  margin-inline: auto;
+}
+
+/* Terms */
+.specials-page__terms {
+  padding-block: 2.5rem;
+  background: var(--warm-white);
+  border-top: 1px solid var(--sand-dark);
+}
+
+.specials-page__terms p {
+  font: 400 0.8rem/1.8 var(--font-body);
+  color: var(--mid-grey);
+  text-align: center;
+  max-width: 70ch;
+  margin-inline: auto;
+}
+
+/* ============================================================
+   27. RESPONSIVE
    ============================================================ */
 @media (max-width: 1200px) {
   .featured__grid { grid-template-columns: repeat(2, 1fr); }
@@ -2900,6 +3118,8 @@ a { color: inherit; text-decoration: none; }
   .article-sidebar { position: static; }
   .journal-grid--3 { grid-template-columns: repeat(2, 1fr); }
   .properties-grid { grid-template-columns: repeat(2, 1fr); }
+  .specials-cards { grid-template-columns: 1fr; }
+  .specials-page__steps { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 768px) {
@@ -2926,6 +3146,12 @@ a { color: inherit; text-decoration: none; }
   .prop-detail__hero-content > div,
   .prop-detail__hero-content div[style] {
     justify-content: center;
+  }
+
+  .specials-page__hero {
+    padding-top: calc(var(--nav-h, 124px) + 3rem);
+    padding-bottom: 3rem;
+    text-align: center;
   }
 
   .things-page__hero {

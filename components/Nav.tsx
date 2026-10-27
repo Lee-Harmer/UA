@@ -45,6 +45,7 @@ export function Nav() {
         <nav className="site-nav__links" aria-label="Main navigation">
           <Link href="/" className={active('/')}>Home</Link>
           <Link href="/properties" className={active('/properties')}>Properties</Link>
+          <Link href="/specials" className={active('/specials')}>Specials</Link>
           <Link href="/things-to-do" className={active('/things-to-do')}>Things To Do</Link>
           <Link href="/about" className={active('/about')}>About</Link>
           <Link href="/journal" className={active('/journal')}>Journal</Link>
@@ -74,6 +75,7 @@ export function Nav() {
         <nav aria-label="Mobile navigation">
           <Link href="/">Home</Link>
           <Link href="/properties">Properties</Link>
+          <Link href="/specials">Specials</Link>
           <Link href="/things-to-do">Things To Do</Link>
           <Link href="/about">About</Link>
           <Link href="/journal">Journal</Link>

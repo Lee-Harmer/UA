@@ -1346,6 +1346,96 @@ export const articles: JournalArticle[] = [
     ],
   },
 
+  {
+    slug: 'dolphins-at-umhlanga',
+    title: "Dolphins at Umhlanga: The Wildlife Sighting You Will See Without Even Trying",
+    category: 'Wildlife',
+    excerpt: "Common and bottlenose dolphins are a near-daily presence off the Umhlanga coast in spring and summer — surfing the bow waves of fishing boats, riding the shorebreak, and occasionally swimming alongside people in the water. No boat required.",
+    coverImage: 'https://pub-c515ece99fde425db8502f06def905f9.r2.dev/wp-content/uploads/2023/08/1-3.jpg',
+    publishedAt: '2026-10-26',
+    readingTime: 5,
+    body: [
+      {
+        type: 'p',
+        text: "The first thing most visitors notice on the Umhlanga promenade is the sea. The second thing, usually within the first morning, is the dolphins. Common and bottlenose dolphins are a near-constant presence along this stretch of the KwaZulu-Natal coast — moving in pods of anywhere from a handful to several hundred, surfing the shorebreak, working the inshore current, and occasionally coming close enough to the beach that you can hear them breathe. It is one of those things that sounds like tourist brochure language until you are standing there watching it happen.",
+      },
+      {
+        type: 'h2',
+        text: 'Why So Many Dolphins?',
+      },
+      {
+        type: 'p',
+        text: "The KwaZulu-Natal north coast sits at the intersection of the warm Agulhas Current and the rich upwellings that bring nutrients to the inshore zone. The result is a food-dense stretch of ocean — sardines, anchovies, mullet, and a rotating cast of other prey species that keep dolphin populations well-fed and resident year-round. Common dolphins (Delphinus delphis) and bottlenose dolphins (Tursiops truncatus) are both regularly sighted; Indian Ocean humpback dolphins, a much rarer inshore species, are also recorded here on occasion.",
+      },
+      {
+        type: 'h2',
+        text: 'When and Where to Look',
+      },
+      {
+        type: 'p',
+        text: "The honest answer is: almost anywhere, almost any time. But early morning gives the best conditions — a flat sea, low glare, and dolphins that tend to be actively feeding rather than resting. The Umhlanga promenade is the obvious starting point. Walk slowly, scan the water between the shark net buoys and the horizon, and watch for the distinctive dark arc of a dorsal fin followed by the next, and the next — dolphins rarely travel alone. The headland beside the lighthouse, which offers slightly more elevation, is the best single vantage point on the coast.",
+      },
+      {
+        type: 'tip',
+        label: 'Best viewing spot',
+        text: "The rocks at the lighthouse point give you elevation and a wide view north and south. Arrive before 8 am when the sea is at its calmest, and scan slowly — the first sighting is usually a splash or a fin that you almost miss. Once your eye adjusts, you will start seeing them everywhere.",
+      },
+      {
+        type: 'h2',
+        text: 'Spring and Summer Are Peak Season',
+      },
+      {
+        type: 'p',
+        text: "Dolphins are present year-round, but October through March sees the largest and most visible pods. The warming water draws prey fish inshore in greater numbers, and the dolphins follow. It is not unusual in late October and November to see pods of fifty or more animals working the shorebreak at Main Beach — leaping, bow-riding the swells, and occasionally surfing the same waves as the people in the water beside them. The overlap between dolphins and swimmers is one of those genuinely unexpected wildlife encounters that Umhlanga delivers without any planning on your part.",
+      },
+      {
+        type: 'h2',
+        text: 'Swimming With Dolphins',
+      },
+      {
+        type: 'p',
+        text: "It happens more often than you would expect. Bottlenose dolphins in particular will approach swimmers and snorkellers, and the rocky area north of the lighthouse — accessible at high tide with a mask and fins — occasionally produces close encounters with small inshore pods. There is no guarantee and no operator involved; it is simply what happens when you are in the water in a place with a healthy dolphin population. Snorkelling at the lighthouse rocks in spring and coming up eye-to-eye with a bottlenose is not something you forget quickly.",
+      },
+      {
+        type: 'h2',
+        text: 'Dolphins and the Sardine Run',
+      },
+      {
+        type: 'p',
+        text: "In June and July, when the sardine run pushes up the coast, dolphins are the primary architects of the bait balls that make the event so spectacular. Common dolphins, sometimes in groups of hundreds, herd sardines into tight spheres near the surface — which then attracts the gannets diving from above and the sharks cutting in from below. The dolphins are the reason any of the visible surface action happens. Even in spring, when the sardine run is months away, watching a pod of common dolphins work an inshore shoal gives you a small version of that same extraordinary coordination.",
+      },
+      {
+        type: 'blockquote',
+        text: '"We were walking the promenade on the first morning and there were about thirty dolphins right there, just inside the shark nets. My daughter stood completely still for ten minutes watching them. I think it was the moment the holiday became real."',
+      },
+      {
+        type: 'h2',
+        text: 'From the Balcony',
+      },
+      {
+        type: 'p',
+        text: "One of the quieter pleasures of staying in a sea-facing apartment in Umhlanga is the wildlife that arrives without announcement. Dolphins are visible from any high-floor balcony on a calm morning, particularly in spring when they work the inshore zone actively. The upper floors of Sea Lodge, Bronze Beach, and the Shades all face the right direction. Binoculars will extend your viewing range significantly — but even without them, a large pod of common dolphins travelling at speed is hard to miss.",
+      },
+      {
+        type: 'h2',
+        text: 'A Note on Responsible Watching',
+      },
+      {
+        type: 'ul',
+        items: [
+          'If dolphins approach you in the water, remain calm and passive — let them lead.',
+          'Do not attempt to touch or feed dolphins; it habituates them to humans and creates risks for both.',
+          'Boat operators are required to observe a 50-metre minimum approach distance; shore-based encounters involve no such restriction, but the same principle of not crowding applies.',
+          'The presence of dolphins near the shark nets does not indicate that the nets are failing — dolphins and sharks often occupy the same water.',
+        ],
+      },
+      {
+        type: 'p',
+        text: "Umhlanga offers a lot. But the dolphins — visible, unscheduled, and entirely unimpressed by your presence — are among the things that visitors remember most. Pack binoculars. Walk the promenade early. The show runs daily.",
+      },
+    ],
+  },
+
   // ── SEPTEMBER ──────────────────────────────────────────────────────────────
 
   {
